@@ -170,7 +170,7 @@ const NewsDescription = () => {
 
   const formatDate = (dateString) => {
     const date = new Date(dateString);
-    const options = { day: "2-digit", month: "short", year: "numeric" };
+    const options = { day: "numeric", month: "short", year: "numeric" };
     return date.toLocaleDateString("en-GB", options);
   };
 
@@ -279,7 +279,7 @@ Read the full article: ${currentUrl}`);
         </Helmet>
       )}
       <div style={{ opacity: 1 }}>
-        <div style={{ marginTop: windowWidth > 1024 ? "150px" : "" }}>
+        <div style={{ marginTop: windowWidth > 1024 ? "120px" : "" }}>
           <Navbar forceScrolled />
           <div className="NewsDetails_container__goqTf">
             <div className="NewsDetails_backButtonContainer__hgOHX">
@@ -444,6 +444,33 @@ Read the full article: ${currentUrl}`);
                 </div>
               </div>
             </div>
+            {/* Related News, same markup as the live site: the three newest articles other than this one */}
+            {newsList?.filter((n) => n.newsTitle !== newsData[0]?.newsTitle).length > 0 && (
+              <div className="NewsDetails_relatedEventsContainer__yaX74">
+                <h2>Related News</h2>
+                <div className="NewsDetails_relatedInnerContainer__KN+YG">
+                  {newsList
+                    .filter((n) => n.newsTitle !== newsData[0]?.newsTitle)
+                    .slice(0, 3)
+                    .map((item, index) => (
+                      <div className="RelatedNewsCard_container__W-hM+" style={{ cursor: "pointer" }} key={index}>
+                        <a href={`/news/${toSlug(item.newsTitle)}`} target="_self">
+                          <div className="RelatedNewsCard_top__hs8Fo">
+                            <img src={mediaUrl(item?.newsImage)} alt={item?.newsImageAltText}></img>
+                          </div>
+                          <div className="RelatedNewsCard_bottom__9Qq-3">
+                            <div>
+                              <p>{item?.newsCategoryDetails?.newsCategory}</p>
+                              <p>{formatDate(item?.newsCreatedDate)}</p>
+                            </div>
+                            <h5>{item?.newsTitle}</h5>
+                          </div>
+                        </a>
+                      </div>
+                    ))}
+                </div>
+              </div>
+            )}
             <div style={{ width: "100%" }}></div>
             <div
               ref={subscribeSectionRef}

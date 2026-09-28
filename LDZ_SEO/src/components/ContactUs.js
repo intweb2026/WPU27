@@ -46,7 +46,7 @@ const ContactUs = () => {
   const [personMobileErrorMessage, setPersonMobileErrorMessage] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
 
-  const subject = encodeURIComponent("Litihium Downstream Summit 2026");
+  const subject = encodeURIComponent("Ultra-Pure Water Summit 2027");
   useEffect(() => {
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
@@ -863,12 +863,12 @@ const ContactUs = () => {
                 <div>
                   <h1>request a call back</h1>
                   <form
-                    id="LDZ-(Request a call back 2026)"
+                    id="WPU-(Request a call back 2027)"
                     method="POST"
                     data-hs-cf-bound="true"
                     onSubmit={submitBtnClk}
                   >
-                    <div className="LDZ_2026_request_a_call_back Form_form__nhNBc form_LDZ">
+                    <div className="WPU_2027_request_a_call_back Form_form__nhNBc form_WPU">
                       <div>
                         <div>
                           <input
@@ -1038,7 +1038,7 @@ const ContactUs = () => {
                         : helper?.helpingPersonDesignation}
                     </p>
                     <a
-                      href={`mailto:${helper?.helpingPersonEmail}?subject=Lithium Downstream Summit 2026`}
+                      href={`mailto:${helper?.helpingPersonEmail}?subject=Ultra-Pure Water Summit 2027`}
                     >
                       <img
                         src={emailIcon}

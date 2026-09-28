@@ -124,8 +124,8 @@ const SubscribeForm = () => {
       <div>
         <div>
           <h2>SUBSCRIBE FOR UPDATES</h2>
-          <p>By submitting, you agree to receive email communications from the event organizers, including upcoming promotions and discounted tickets, new, and access to related events.</p>
-          <form id="LDZ-(Subscribe For Updates 2026)" encType="multipart/form-data" method="POST" onSubmit={submitBtnClk}>
+          <p>By submitting, you agree to receive email communications from the event organizers, including upcoming promotions and discounted tickets, news, and access to related events.</p>
+          <form id="WPU-(Subscribe For Updates 2027)" encType="multipart/form-data" method="POST" onSubmit={submitBtnClk}>
             <div className="SubscribeforUpdates_from__REPoW">
               <input
                 name="name"

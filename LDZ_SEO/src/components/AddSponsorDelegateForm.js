@@ -338,7 +338,7 @@ const AddSponsorDelegateForm = () => {
         const emailPayload = {
           toemail: toEmails,
           cc: "",
-          subject: `${eventDetails?.eventShortCode || "LDZ"} - Booking Form Step 1`,
+          subject: `${eventDetails?.eventShortCode || "WPU"} - Booking Form Step 1`,
           html: htmlContent,
         };
         try {
@@ -622,7 +622,7 @@ const AddSponsorDelegateForm = () => {
       const emailPayload = {
         toemail: toEmails,
         cc: "",
-        subject: `${eventDetails?.eventShortCode || "LDZ"} - Booking Form Step 2`,
+        subject: `${eventDetails?.eventShortCode || "WPU"} - Booking Form Step 2`,
         html: step2Html,
       };
 
@@ -756,7 +756,7 @@ const AddSponsorDelegateForm = () => {
       const emailPayload = {
         toemail: toEmails,
         cc: "",
-        subject: `${eventDetails?.eventShortCode || "LDZ"} - Booking Confirmation - Payment Successful`,
+        subject: `${eventDetails?.eventShortCode || "WPU"} - Booking Confirmation - Payment Successful`,
         html: step3Html,
       };
 
@@ -1235,7 +1235,7 @@ const AddSponsorDelegateForm = () => {
             IQ International PTe.LTD
           </span>
         </p>
-        <p>©2026 Lithium Downstream Summit 2026</p>
+        <p>©2026 Ultra-Pure Water Summit 2027</p>
       </div>
     </div>
   );
@@ -1662,7 +1662,7 @@ const AddSponsorDelegateForm = () => {
                 <h1>Exhibitors Registration</h1>
                 <form
                   action="#"
-                  className="LDZ_2026_sponsor_form form_LDZ"
+                  className="WPU_2027_sponsor_form form_WPU"
                   data-hs-cf-bound="true"
                   onSubmit={handleSubmit}
                 >

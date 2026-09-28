@@ -922,11 +922,11 @@ const Sponsors = () => {
                       market.
                     </p>
                     <form
-                      id="LDZ-(Stand out From the Crowd 2026)"
+                      id="WPU-(Stand out From the Crowd 2027)"
                       method="POST"
                       onSubmit={submitBtnClk}
                     >
-                      <div className="LDZ_2026_sponsor_form Form_form__nhNBc form_LDZ">
+                      <div className="WPU_2027_sponsor_form Form_form__nhNBc form_WPU">
                         <div>
                           <div>
                             <input
@@ -1027,7 +1027,7 @@ const Sponsors = () => {
                       <p>
                         <img src={emailIcon} alt="emil icon"></img>
                         <a
-                          href={`mailto:${item?.companyPersonEmail}?subject=Lithium Downstream Summit 2026`}
+                          href={`mailto:${item?.companyPersonEmail}?subject=Ultra-Pure Water Summit 2027`}
                         >
                           {" "}
                           {item?.companyPersonEmail}

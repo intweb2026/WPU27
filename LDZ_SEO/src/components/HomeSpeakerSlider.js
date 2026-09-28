@@ -97,15 +97,15 @@ const HomeSpeakerSlider = () => {
     >
       <div className="head">
         {/* HIGHLIGHTS FROM OUR LAST SHOW */}
-        <h2 style={{ color: "var(--primary-color)" }}>
+        {/* <h2 style={{ color: "var(--primary-color)" }}>
           highlights
           <span style={{ color: "var(--primary-color)" }}>from our last show</span>
-        </h2>
+        </h2> */}
         {/* MEET OUR FEATURED SPEAKERS */}
-        {/* <h2 style={{ color: "var(--primary-color)" }}>
+        <h2 style={{ color: "var(--primary-color)" }}>
           MEET OUR
           <span style={{ color: "var(--primary-color)" }}>FEATURED SPEAKERS</span>
-        </h2> */}
+        </h2>
         <button
           style={{ color: "var(--primary-color)" }}
           onClick={() => navigate("/featured-speakers")}

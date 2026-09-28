@@ -492,12 +492,10 @@ const Navbar = ({ disableScrollEffect = false, forceScrolled = false }) => {
   }, [isMobileMenuOpen]);
 
   useEffect(() => {
-    const active = navItems.find(item => {
-      if (item?.dropdown?.length) {
-        return item.dropdown.some(sub => sub.href === location.pathname);
-      }
-      return item.href === location.pathname;
-    });
+    // Same as the live site, a top level item is active on its own path and the paths under it
+    const active = navItems.find(item =>
+      item?.href && (location.pathname === item.href || location.pathname.startsWith(item.href + "/"))
+    );
     setActiveModule(active ? active.name : null);
   }, [location.pathname, navItems]);
 
@@ -681,6 +679,8 @@ const Navbar = ({ disableScrollEffect = false, forceScrolled = false }) => {
             isMobileMenuOpen={isMobileMenuOpen}
             less1024={less1024}
           /> */}
+          {/* Same spacer the live site renders here */}
+          <div style={{ marginRight: "15px" }}></div>
 
           <button onClick={() => navigate("/booking")}>Register</button>
 

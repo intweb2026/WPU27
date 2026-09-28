@@ -407,10 +407,10 @@ const RemindMeLater = () => {
           <h1>Remind Me</h1>
           <div className="RemindMeLater_addOns__nEVDz">
             <div className="RemindMeLater_bar__tC12c">
-              <h2>Your thoughts on attending?</h2>.
+              <h2>Your thoughts on attending?</h2>
             </div>
             <div className="cmxform" id="developForm">
-              <form id="LDZ-(Remind me Later 2026)" onSubmit={handleRemindMeSubmit}>
+              <form id="WPU-(Remind me Later 2027)" onSubmit={handleRemindMeSubmit}>
                 <div className="RemindMeLater_addOnsInner__aBNYF">
                   <div>
                     <h2>I have not registered yet, because:</h2>
@@ -475,7 +475,7 @@ const RemindMeLater = () => {
                       {emailError && <p>{emailError}</p>}
                     </div>
                     <button type="submit" disabled={isSubmitting}>
-                      {isSubmitting ? "Please Wait" : "Remind Me"}
+                      {isSubmitting ? "PLEASE WAIT" : "REMIND ME"}
                     </button>
                   </div>
                 </div>
@@ -501,7 +501,7 @@ const RemindMeLater = () => {
                 IQ International PTe.LTD
               </span>
             </p>
-            <p>©2026 Litihium Downstream Summit 2026</p>
+            <p>©2026 Ultra-Pure Water Summit 2027</p>
           </div>
         </div>
       </div>

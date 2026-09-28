@@ -99,272 +99,587 @@
 
        /* new css */
 
-       .SpeakersSection_speakerSection__UNPkB {
-           align-items: center;
-           background-color: #fff;
-           display: flex;
-           flex-direction: column;
-           justify-content: center;
-           margin: 0 auto;
-           min-height: 300px;
-           padding: 95px 0 100px;
-           width: 100%;
-       }
+/* SpeakersSection rules copied from the live site CSS */
 
-       .SpeakersSection_speakerSection__UNPkB h1 {
-           color: #181818;
-           font-size: 36px;
-           font-weight: 800;
-           line-height: 30px;
-           margin: 0;
-           text-align: center;
-           text-transform: uppercase;
-           width: 80%;
-       }
+/* SpeakersSection rules copied from the live site CSS */
 
-       .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X {
-           align-items: center;
-           display: flex;
-           flex-direction: column;
-           margin: 0;
-           max-width: 1200px;
-           padding: 0;
-           width: 100%;
-       }
+.SpeakersSection_speakerSection__UNPkB {
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    min-height: 300px;
+    padding: 95px 0 100px;
+    width: 100%;
+}
 
-       .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH {
-           grid-column-gap: 20px;
-           grid-row-gap: 20px;
-           column-gap: 20px;
-           display: grid;
-           grid-template-columns: repeat(4, 1fr);
-           justify-content: center;
-           margin: 50px auto 0;
-           padding: 0;
-           row-gap: 20px;
-           width: 100%;
-       }
+@media only screen and (max-width:1419px) {
+    .SpeakersSection_speakerSection__UNPkB {
+        padding: 60px 0;
+    }
+}
 
-       .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 {
-           background-color: #fff;
-           border: none;
-           border-radius: 2px;
-           cursor: pointer;
-           height: 289px;
-           outline: none;
-           position: relative;
-           transition: all .3s ease;
-       }
+@media only screen and (max-width:940px) {
+    .SpeakersSection_speakerSection__UNPkB {
+        padding: 35px 0 23px;
+    }
+}
 
-       .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1:hover {
-           box-shadow: 1px 2px 20px 1px #0003;
-           -webkit-box-shadow: 1px 2px 20px 1px #0003;
-       }
+.SpeakersSection_speakerSection__UNPkB h1 {
+    color: #181818;
+    font-size: 36px;
+    text-transform: uppercase;
+}
 
-       .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 img {
-           background-color: #fff;
-           border: none;
-           border-radius: 2px;
-           height: 289px;
-           object-fit: cover;
-           outline: none;
-           width: 100%;
-       }
+@media only screen and (max-width:1419px) {
+    .SpeakersSection_speakerSection__UNPkB h1 {
+        font-size: 30px;
+    }
+}
 
-       .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1:before {
-           background: linear-gradient(0deg, #00000073 15.97%, hsla(0, 0%, 77%, .102) 76.28%, #fff0);
-           border-radius: 2px;
-           content: "";
-           height: 100%;
-           left: 0;
-           position: absolute;
-           top: 0;
-           width: 100%;
-           z-index: 1;
-       }
+@media only screen and (max-width:991px) {
+    .SpeakersSection_speakerSection__UNPkB h1 {
+        font-size: 28px;
+    }
+}
 
-       .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 .SpeakersSection_text__FLalV {
-           bottom: 0;
-           left: 0;
-           max-height: 100%;
-           overflow-y: hidden;
-           padding-bottom: 17px;
-           padding-left: 20px;
-           position: absolute;
-           width: 100%;
-           z-index: 2;
-       }
+@media only screen and (max-width:639px) {
+    .SpeakersSection_speakerSection__UNPkB h1 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+}
 
-       .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 .SpeakersSection_text__FLalV p {
-           word-wrap: break-word;
-           color: #fff;
-           font-size: 20px;
-           font-weight: 800;
-           line-height: 24px;
-           margin: 0;
-           padding: 0;
-           text-transform: capitalize;
-           white-space: normal;
-       }
+.SpeakersSection_speakerSection__UNPkB h1 {
+    font-weight: 800;
+    line-height: 30px;
+    margin: 0;
+    text-align: center;
+    width: 80%;
+}
 
-       .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 .SpeakersSection_text__FLalV p:nth-child(2) {
-           font-size: 15px;
-           font-weight: 700;
-           letter-spacing: .4px;
-       }
+@media only screen and (max-width:940px) {
+    .SpeakersSection_speakerSection__UNPkB h1 {
+        width: 90%;
+    }
+}
 
-       @media only screen and (max-width: 1419px) {
-           .SpeakersSection_speakerSection__UNPkB {
-               padding: 60px 0;
-           }
+@media only screen and (max-width:991px) {
+    .SpeakersSection_speakerSection__UNPkB h1 {
+        font-size: 30px;
+    }
+}
 
-           .SpeakersSection_speakerSection__UNPkB h1 {
-               font-size: 30px;
-           }
-       }
+@media only screen and (max-width:768px) {
+    .SpeakersSection_speakerSection__UNPkB h1 {
+        font-size: 25px;
+    }
+}
 
-       @media only screen and (max-width: 1231px) {
-           .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X {
-               max-width: 960px;
-           }
+@media only screen and (max-width:639px) {
+    .SpeakersSection_speakerSection__UNPkB h1 {
+        font-size: 22px;
+        line-height: 20px;
+        margin: 0 auto;
+    }
+}
 
-           .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 {
-               height: 250px;
-           }
+@media only screen and (max-width:480px) {
+    .SpeakersSection_speakerSection__UNPkB h1 {
+        font-size: 20px;
+        line-height: 20px;
+        margin: 0 auto;
+    }
+}
 
-           .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 img {
-               height: 250px;
-           }
+.SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    max-width: 1200px;
+    padding: 0;
+    width: 100%;
+}
 
-           .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 .SpeakersSection_text__FLalV p {
-               font-size: 18px;
-               line-height: 22px;
-           }
-       }
+@media only screen and (max-width:1231px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X {
+        max-width: 960px;
+    }
+}
 
-       @media only screen and (max-width: 991px) {
-           .SpeakersSection_speakerSection__UNPkB h1 {
-               font-size: 30px;
-           }
+@media only screen and (max-width:991px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X {
+        max-width: 720px;
+    }
+}
 
-           .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X {
-               max-width: 720px;
-           }
+@media only screen and (max-width:768px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X {
+        max-width: 650px;
+        width: 91.5%;
+    }
+}
 
-           .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 {
-               height: 220px;
-           }
+.SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X button {
+    background-color: #0000;
+    border: 1px solid #181818;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 800;
+    height: 50px;
+    text-transform: uppercase;
+}
 
-           .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 img {
-               height: 220px;
-           }
+@media only screen and (max-width:768px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X button {
+        font-size: 16.5px;
+    }
+}
 
-           .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 .SpeakersSection_text__FLalV p {
-               font-size: 14px;
-               line-height: 19px;
-           }
-       }
+.SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X button {
+    background-color: #e4e4e4;
+    border: none;
+    color: #181818;
+    cursor: pointer;
+    height: 60px;
+    margin: 50px 0 0;
+    max-width: 394px;
+    transition: .3s;
+    width: 100%;
+}
 
-       @media only screen and (max-width: 940px) {
-           .SpeakersSection_speakerSection__UNPkB {
-               padding: 35px 0 23px;
-               padding-bottom: 38px;
-           }
+.SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X button:hover {
+    background-color: #181818;
+    color: #e4e4e4;
+}
 
-           .SpeakersSection_speakerSection__UNPkB h1 {
-               width: 90%;
-           }
-       }
+@media only screen and (max-width:991px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X button {
+        max-width: 560px;
+    }
+}
 
-       @media only screen and (max-width: 768px) {
-           .SpeakersSection_speakerSection__UNPkB h1 {
-               font-size: 25px;
-           }
+@media only screen and (max-width:940px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X button {
+        margin-bottom: 15px;
+    }
+}
 
-           .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X {
-               max-width: 650px;
-               width: 91.5%;
-           }
+@media only screen and (max-width:768px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X button {
+        max-width: none;
+    }
+}
 
-           .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH {
-               grid-template-columns: repeat(2, 1fr);
-           }
+@media only screen and (max-width:639px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X button {
+        font-size: 16.5px;
+        height: 50px;
+        margin-top: 20px;
+    }
+}
 
-           .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 {
-               height: 250px;
-           }
+@media only screen and (max-width:479px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X button {
+        max-width: 374px;
+    }
+}
 
-           .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 img {
-               height: 250px;
-           }
+@media only screen and (max-width:480px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X button {
+        padding: 0;
+        width: 100%;
+    }
+}
 
-           .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 .SpeakersSection_text__FLalV p {
-               font-size: 18px;
-               line-height: 22px;
-           }
-       }
+.SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH {
+    column-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    margin: 50px auto 0;
+    padding: 0;
+    row-gap: 20px;
+    width: 100%;
+}
 
-       @media only screen and (max-width: 639px) {
-           .SpeakersSection_speakerSection__UNPkB h1 {
-               font-size: 22px;
-               line-height: 20px;
-               margin: 0 auto;
-           }
+@media only screen and (max-width:768px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
 
-           .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH {
-               margin-top: 17px;
-           }
+@media only screen and (max-width:639px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH {
+        margin-top: 17px;
+    }
+}
 
-           .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 {
-               height: 214px;
-           }
+.SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 {
+    background-color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 289px;
+    outline: none;
+    position: relative;
+    transition: all .3s ease;
+}
 
-           .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 img {
-               height: 214px;
-           }
+.SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1:hover {
+    box-shadow: 1px 2px 20px 1px #0003;
+    -webkit-box-shadow: 1px 2px 20px 1px #0003;
+    -moz-box-shadow: 1px 2px 20px 1px #0003;
+}
 
-           .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 .SpeakersSection_text__FLalV {
-               padding: 13px 13px 11px;
-           }
-       }
+@media only screen and (max-width:991px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1:hover {
+        box-shadow: none;
+    }
+}
 
-       @media only screen and (max-width: 479px) {
-           .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 {
-               height: 184px;
-           }
+.SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1:before {
+    background: linear-gradient(0deg,#00000073 15.97%,hsla(0,0%,77%,.102) 76.28%,#fff0);
+    border-radius: 2px;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
 
-           .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 img {
-               height: 184px;
-           }
+@media only screen and (max-width:1231px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 {
+        height: 250px;
+    }
+}
 
-           .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 .SpeakersSection_text__FLalV p {
-               font-size: 14px;
-               line-height: 16px;
-           }
-       }
+@media only screen and (max-width:991px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 {
+        height: 220px;
+    }
+}
 
-       @media only screen and (max-width: 480px) {
-           .SpeakersSection_speakerSection__UNPkB h1 {
-               font-size: 20px;
-               line-height: 20px;
-               margin: 0 auto;
-           }
-       }
+@media only screen and (max-width:768px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 {
+        height: 250px;
+    }
+}
 
-       @media only screen and (max-width: 400px) {
-           .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 {
-               height: 140px;
-           }
+@media only screen and (max-width:639px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 {
+        height: 214px;
+    }
+}
 
-           .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 img {
-               height: 140px;
-           }
+@media only screen and (max-width:479px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 {
+        height: 184px;
+    }
+}
 
-       }
+@media only screen and (max-width:400px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 {
+        height: 140px;
+    }
+}
 
-       @media only screen and (max-width: 350px) {
-           .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 .SpeakersSection_text__FLalV p {
-               font-size: 12px;
-               line-height: 13px;
-           }
-       }
+.SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 img {
+    background-color: #fff;
+    border: none;
+    border-radius: 2px;
+    height: 289px;
+    object-fit: cover;
+    outline: none;
+    width: 100%;
+}
+
+@media only screen and (max-width:1231px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 img {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 img {
+        height: 220px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 img {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 img {
+        height: 214px;
+    }
+}
+
+@media only screen and (max-width:479px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 img {
+        height: 184px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 img {
+        height: 140px;
+    }
+}
+
+.SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 .SpeakersSection_text__FLalV {
+    bottom: 0;
+    left: 0;
+    max-height: 100%;
+    overflow-y: hidden;
+    padding-bottom: 17px;
+    padding-left: 20px;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+@media only screen and (max-width:639px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 .SpeakersSection_text__FLalV {
+        padding: 13px 13px 11px;
+    }
+}
+
+.SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 .SpeakersSection_text__FLalV p {
+    word-wrap: break-word;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    white-space: normal;
+}
+
+@media only screen and (max-width:1231px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 .SpeakersSection_text__FLalV p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 .SpeakersSection_text__FLalV p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 .SpeakersSection_text__FLalV p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media only screen and (max-width:479px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 .SpeakersSection_text__FLalV p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media only screen and (max-width:350px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 .SpeakersSection_text__FLalV p {
+        font-size: 12px;
+        line-height: 13px;
+    }
+}
+
+.SpeakersSection_speakerSection__UNPkB .SpeakersSection_container__s\+N5X .SpeakersSection_speakersContainer__zaJfH .SpeakersSection_speakerImageContainer__dwWJ1 .SpeakersSection_text__FLalV p:nth-child(2) {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .4px;
+}
+
+.SpeakersSection_speakerSection__UNPkB .SpeakersSection_speakersSliderContainer__sW0Qj {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto 0;
+    max-width: 1450px;
+    width: 100%;
+}
+
+@media only screen and (max-width:1619px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_speakersSliderContainer__sW0Qj {
+        max-width: 1200px;
+    }
+}
+
+@media only screen and (max-width:1231px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_speakersSliderContainer__sW0Qj {
+        max-width: 960px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_speakersSliderContainer__sW0Qj {
+        max-width: 720px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_speakersSliderContainer__sW0Qj {
+        max-width: 650px;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_speakersSliderContainer__sW0Qj {
+        margin-top: 12px;
+    }
+}
+
+.SpeakersSection_speakerSection__UNPkB .SpeakersSection_speakersSliderContainer__sW0Qj>div {
+    height: auto;
+    margin: 0;
+    max-height: 201px;
+    padding: 0 0 20px;
+    width: 88%;
+}
+
+@media only screen and (max-width:480px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_speakersSliderContainer__sW0Qj>div {
+        width: 90%;
+    }
+}
+
+.SpeakersSection_speakerSection__UNPkB .SpeakersSection_speakersSliderContainer__sW0Qj button {
+    align-items: center;
+    background: #0000;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: max-content;
+}
+
+.SpeakersSection_speakerSection__UNPkB .SpeakersSection_speakersSliderContainer__sW0Qj button img {
+    height: 29px;
+    width: 16px;
+}
+
+@media only screen and (max-width:639px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_speakersSliderContainer__sW0Qj button img {
+        height: 18px;
+        width: 10px;
+    }
+}
+
+.SpeakersSection_speakerSection__UNPkB .SpeakersSection_speakersSliderContainer__sW0Qj .SpeakersSection_speakerImageContainer__dwWJ1 {
+    border-radius: 2px;
+    cursor: pointer;
+    height: 201px;
+    padding: 0;
+    position: relative;
+    width: 199px;
+}
+
+.SpeakersSection_speakerSection__UNPkB .SpeakersSection_speakersSliderContainer__sW0Qj .SpeakersSection_speakerImageContainer__dwWJ1:focus-visible {
+    outline: none;
+}
+
+@media only screen and (max-width:940px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_speakersSliderContainer__sW0Qj .SpeakersSection_speakerImageContainer__dwWJ1 {
+        height: 184px;
+        width: 180px;
+    }
+}
+
+.SpeakersSection_speakerSection__UNPkB .SpeakersSection_speakersSliderContainer__sW0Qj .SpeakersSection_speakerImageContainer__dwWJ1 a:before {
+    background: linear-gradient(0deg,#00000059 17%,hsla(0,0%,72%,.099) 70.76%,#fff0);
+    border-radius: 2px;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.SpeakersSection_speakerSection__UNPkB .SpeakersSection_speakersSliderContainer__sW0Qj .SpeakersSection_speakerImageContainer__dwWJ1 img {
+    border-radius: 2px;
+    box-shadow: 0 5px 12px -4px #0003;
+    height: 201px;
+    object-fit: cover;
+    transition: all .3s ease;
+    width: 199px;
+}
+
+@media only screen and (max-width:940px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_speakersSliderContainer__sW0Qj .SpeakersSection_speakerImageContainer__dwWJ1 img {
+        height: 184px;
+        width: 180px;
+    }
+}
+
+.SpeakersSection_speakerSection__UNPkB .SpeakersSection_speakersSliderContainer__sW0Qj .SpeakersSection_speakerImageContainer__dwWJ1 .SpeakersSection_text__FLalV {
+    bottom: 0;
+    left: 0;
+    max-height: 100%;
+    overflow-y: hidden;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+@media only screen and (max-width:940px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_speakersSliderContainer__sW0Qj .SpeakersSection_speakerImageContainer__dwWJ1 .SpeakersSection_text__FLalV {
+        padding-bottom: 16px;
+        padding-left: 8px;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_speakersSliderContainer__sW0Qj .SpeakersSection_speakerImageContainer__dwWJ1 .SpeakersSection_text__FLalV {
+        padding-bottom: 12px;
+        padding-left: 8px;
+    }
+}
+
+.SpeakersSection_speakerSection__UNPkB .SpeakersSection_speakersSliderContainer__sW0Qj .SpeakersSection_speakerImageContainer__dwWJ1 .SpeakersSection_text__FLalV p {
+    word-wrap: break-all;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: .2px;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+    text-shadow: 1px 3px 3px #0000004d;
+    text-transform: capitalize;
+    white-space: normal;
+}
+
+@media only screen and (max-width:639px) {
+    .SpeakersSection_speakerSection__UNPkB .SpeakersSection_speakersSliderContainer__sW0Qj .SpeakersSection_speakerImageContainer__dwWJ1 .SpeakersSection_text__FLalV p {
+        font-size: 13.69px;
+        text-shadow: 1px 3px 4px #0000004d;
+    }
+}
+
+.SpeakersSection_speakerSection__UNPkB .SpeakersSection_speakersSliderContainer__sW0Qj .SpeakersSection_speakerImageContainer__dwWJ1 .SpeakersSection_text__FLalV p:nth-child(2) {
+    font-size: 12px;
+    font-weight: 700;
+}

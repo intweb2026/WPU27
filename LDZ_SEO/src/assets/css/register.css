@@ -5,7 +5,6 @@
   font-family: "Montserrat", sans-serif;
 }
 
-
 html {
   font-family: "Montserrat", sans-serif;
 } */
@@ -444,80 +443,6 @@ html {
 }
 
 /* new css */
-
-.RegisterNow_container__Hy2rO {
-  background-color: var(--secondary-color);
-  padding: 95px 0;
-}
-
-.RegisterNow_container__Hy2rO>div {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0 auto;
-  max-width: 1200px;
-  width: 100%;
-}
-
-.RegisterNow_container__Hy2rO>div h1 {
-  color: #181818;
-  color: #fff;
-  font-size: 34px;
-  font-weight: 800;
-  margin: 0;
-  padding: 0;
-  text-transform: uppercase;
-}
-
-.RegisterNow_container__Hy2rO>div>p {
-  color: #fff;
-  font-size: 16px;
-  font-weight: 500;
-  margin: 37px 0 50px;
-  max-width: 585px;
-  padding: 0;
-  text-align: center;
-  width: 60%;
-  line-height: 20px;
-}
-
-.RegisterNow_container__Hy2rO>div>p span {
-  color: var(--primary-color);
-  display: block;
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-  text-transform: uppercase;
-}
-
-.RegisterNow_container__Hy2rO>div .RegisterNow_registerCards__tVJkv {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.RegisterNow_container__Hy2rO>div .RegisterNow_registerCards__tVJkv .RegisterNow_registerCard__Aryct {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  max-width: 200px;
-}
-
-.RegisterNow_container__Hy2rO>div .RegisterNow_registerCards__tVJkv .RegisterNow_registerCard__Aryct>div {
-  height: 75px;
-}
-
-.RegisterNow_container__Hy2rO>div .RegisterNow_registerCards__tVJkv .RegisterNow_registerCard__Aryct p {
-  color: #fff;
-  font-size: 16px;
-  font-weight: 500;
-  margin: 18px 0 0;
-  padding: 0 7px;
-  text-align: center;
-  line-height: 20px;
-}
 
 .BookingLanding_discountCards__RBbvs {
   background-color: #fff;
@@ -986,21 +911,7 @@ html {
   -moz-appearance: textfield;
 }
 
-@media only screen and (max-width: 1619px) {
-  .RegisterNow_container__Hy2rO {
-    max-height: -webkit-max-content;
-    max-height: max-content;
-  }
-}
-
 @media only screen and (max-width: 1419px) {
-  .RegisterNow_container__Hy2rO {
-    padding: 60px 0;
-  }
-
-  .RegisterNow_container__Hy2rO>div h1 {
-    font-size: 30px;
-  }
 
   .BookingLanding_discountCards__RBbvs {
     padding: 60px 0;
@@ -1017,9 +928,6 @@ html {
 }
 
 @media only screen and (max-width: 1231px) {
-  .RegisterNow_container__Hy2rO>div {
-    max-width: 960px;
-  }
 
   .BookingLanding_discountCards__RBbvs>div {
     max-width: 960px;
@@ -1043,27 +951,6 @@ html {
 }
 
 @media only screen and (max-width: 991px) {
-  .RegisterNow_container__Hy2rO>div {
-    max-width: 720px;
-  }
-
-  .RegisterNow_container__Hy2rO>div h1 {
-    font-size: 28px;
-  }
-
-  .RegisterNow_container__Hy2rO>div .RegisterNow_registerCards__tVJkv {
-    grid-column-gap: 60px;
-    grid-row-gap: 40px;
-    column-gap: 60px;
-    display: grid;
-    grid-template-columns: repeat(2, 250px);
-    justify-content: center;
-    row-gap: 40px;
-  }
-
-  .RegisterNow_container__Hy2rO>div .RegisterNow_registerCards__tVJkv .RegisterNow_registerCard__Aryct {
-    max-width: none;
-  }
 
   .BookingLanding_discountCards__RBbvs>div {
     column-gap: 20px;
@@ -1087,10 +974,6 @@ html {
 }
 
 @media only screen and (max-width: 768px) {
-  .RegisterNow_container__Hy2rO>div {
-    max-width: 650px;
-    width: 90%;
-  }
 
   .BookingLanding_discountCards__RBbvs>div {
     column-gap: 0;
@@ -1185,24 +1068,6 @@ html {
 }
 
 @media only screen and (max-width: 639px) {
-  .RegisterNow_container__Hy2rO {
-    padding: 37px 0;
-  }
-
-  .RegisterNow_container__Hy2rO>div h1 {
-    font-size: 22px;
-    line-height: 25px;
-  }
-
-  .RegisterNow_container__Hy2rO>div>p {
-    margin-bottom: 30px;
-    margin-top: 10px;
-    width: 100%;
-  }
-
-  .RegisterNow_container__Hy2rO>div .RegisterNow_registerCards__tVJkv {
-    grid-template-columns: repeat(2, 190px);
-  }
 
   .BookingLanding_discountCards__RBbvs {
     padding: 40px 0 20px;
@@ -1259,12 +1124,6 @@ html {
   }
 }
 
-@media only screen and (max-width: 580px) {
-  .RegisterNow_container__Hy2rO>div .RegisterNow_registerCards__tVJkv .RegisterNow_registerCard__Aryct p {
-    padding: 0;
-  }
-}
-
 @media only screen and (max-width: 480px) {
   .BookingLanding_modalContainer__5foGo form>div>div input {
     font-size: 13px;
@@ -1297,13 +1156,6 @@ html {
   }
 }
 
-@media only screen and (max-width: 470px) {
-  .RegisterNow_container__Hy2rO>div .RegisterNow_registerCards__tVJkv {
-    column-gap: 20px;
-    row-gap: 20px;
-  }
-}
-
 @media only screen and (max-width: 430px) {
   .BookingLanding_operators__28yhC>div>div h2 {
     font-size: 18px;
@@ -1312,9 +1164,6 @@ html {
 }
 
 @media only screen and (max-width: 420px) {
-  .RegisterNow_container__Hy2rO>div .RegisterNow_registerCards__tVJkv {
-    grid-template-columns: repeat(1, 1fr);
-  }
 
   .BookingLanding_operators__28yhC>div img {
     height: auto;
@@ -1332,4 +1181,188 @@ html {
 .BookingLanding_modalContainer__5foGo form>div>div>div {
   color: red;
   margin-top: 8px;
+}
+
+/* RegisterNow rules copied from the live site CSS */
+
+.RegisterNow_container__Hy2rO {
+    background-color: var(--secondary-color);
+    padding: 95px 0;
+}
+
+@media only screen and (max-width:1619px) {
+    .RegisterNow_container__Hy2rO {
+        max-height: max-content;
+    }
+}
+
+@media only screen and (max-width:1419px) {
+    .RegisterNow_container__Hy2rO {
+        padding: 60px 0;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .RegisterNow_container__Hy2rO {
+        padding: 37px 0;
+    }
+}
+
+.RegisterNow_container__Hy2rO>div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+@media only screen and (max-width:1231px) {
+    .RegisterNow_container__Hy2rO>div {
+        max-width: 960px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .RegisterNow_container__Hy2rO>div {
+        max-width: 720px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .RegisterNow_container__Hy2rO>div {
+        max-width: 650px;
+        width: 90%;
+    }
+}
+
+.RegisterNow_container__Hy2rO>div h1 {
+    color: #181818;
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width:1419px) {
+    .RegisterNow_container__Hy2rO>div h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .RegisterNow_container__Hy2rO>div h1 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .RegisterNow_container__Hy2rO>div h1 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+}
+
+.RegisterNow_container__Hy2rO>div h1 {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.RegisterNow_container__Hy2rO>div>p {
+    color: #181818;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 37px 0 50px;
+    max-width: 585px;
+    padding: 0;
+    text-align: center;
+    width: 60%;
+}
+
+@media only screen and (max-width:639px) {
+    .RegisterNow_container__Hy2rO>div>p {
+        margin-bottom: 30px;
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+.RegisterNow_container__Hy2rO>div>p span {
+    color: var(--primary-color);
+    display: block;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.RegisterNow_container__Hy2rO>div .RegisterNow_registerCards__tVJkv {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media only screen and (max-width:991px) {
+    .RegisterNow_container__Hy2rO>div .RegisterNow_registerCards__tVJkv {
+        column-gap: 60px;
+        display: grid;
+        grid-template-columns: repeat(2,250px);
+        justify-content: center;
+        row-gap: 40px;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .RegisterNow_container__Hy2rO>div .RegisterNow_registerCards__tVJkv {
+        grid-template-columns: repeat(2,190px);
+    }
+}
+
+@media only screen and (max-width:470px) {
+    .RegisterNow_container__Hy2rO>div .RegisterNow_registerCards__tVJkv {
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+}
+
+@media only screen and (max-width:420px) {
+    .RegisterNow_container__Hy2rO>div .RegisterNow_registerCards__tVJkv {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+.RegisterNow_container__Hy2rO>div .RegisterNow_registerCards__tVJkv .RegisterNow_registerCard__Aryct {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 200px;
+}
+
+@media only screen and (max-width:991px) {
+    .RegisterNow_container__Hy2rO>div .RegisterNow_registerCards__tVJkv .RegisterNow_registerCard__Aryct {
+        max-width: none;
+    }
+}
+
+.RegisterNow_container__Hy2rO>div .RegisterNow_registerCards__tVJkv .RegisterNow_registerCard__Aryct>div {
+    height: 75px;
+}
+
+.RegisterNow_container__Hy2rO>div .RegisterNow_registerCards__tVJkv .RegisterNow_registerCard__Aryct p {
+    color: #181818;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 18px 0 0;
+    padding: 0 7px;
+    text-align: center;
+}
+
+@media only screen and (max-width:580px) {
+    .RegisterNow_container__Hy2rO>div .RegisterNow_registerCards__tVJkv .RegisterNow_registerCard__Aryct p {
+        padding: 0;
+    }
 }

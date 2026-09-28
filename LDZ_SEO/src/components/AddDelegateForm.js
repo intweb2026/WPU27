@@ -360,7 +360,7 @@ const CompanyRegistrationForm = () => {
         const emailPayload = {
           toemail: toEmails,
           cc: "",
-          subject: `${eventDetails?.eventShortCode || "LDZ"} - Booking Form Step 1`,
+          subject: `${eventDetails?.eventShortCode || "WPU"} - Booking Form Step 1`,
           html: htmlContent,
         };
         try {
@@ -416,7 +416,7 @@ const CompanyRegistrationForm = () => {
       //         TaxAmount: { taxAmount },
       //         Packages: selectedPackage?.deligatePackageName || "",
       //         Currency: "USD",
-      //         Eventname: "Litihium Downstream Summit 2026",
+      //         Eventname: "Ultra-Pure Water Summit 2027",
       //         Country: formData.company.country || "",
       //         Delegates: formData.delegates.map((delegate) => ({
       //           Email: delegate.email,
@@ -788,7 +788,7 @@ const CompanyRegistrationForm = () => {
       const emailPayload = {
         toemail: toEmails,
         cc: "",
-        subject: `${eventDetails?.eventShortCode || "LDZ"} - Booking Form Step 2`,
+        subject: `${eventDetails?.eventShortCode || "WPU"} - Booking Form Step 2`,
         html: step2Html,
       };
       try {
@@ -917,7 +917,7 @@ const CompanyRegistrationForm = () => {
       const emailPayload = {
         toemail: toEmails,
         cc: "",
-        subject: `${eventDetails?.eventShortCode || "LDZ"} - Booking Confirmation - Payment Successful`,
+        subject: `${eventDetails?.eventShortCode || "WPU"} - Booking Confirmation - Payment Successful`,
         html: step3Html,
       };
       try {
@@ -1235,7 +1235,7 @@ const CompanyRegistrationForm = () => {
             IQ International PTe.LTD
           </span>
         </p>
-        <p>©2026 Lithium Downstream Summit 2026</p>
+        <p>©2026 Ultra-Pure Water Summit 2027</p>
       </div>
     </div>
   );
@@ -1607,7 +1607,7 @@ const CompanyRegistrationForm = () => {
                     IQ International PTe.LTD
                   </span>
                 </p>
-                <p>©2026 Lithium Downstream Summit 2026</p>
+                <p>©2026 Ultra-Pure Water Summit 2027</p>
               </div>
             </div>
           </div>
@@ -1642,7 +1642,7 @@ const CompanyRegistrationForm = () => {
                 <h1>Registration</h1>
                 <form
                   action="#"
-                  className="LDZ_2026_booking_form form_LDZ"
+                  className="WPU_2027_booking_form form_WPU"
                   data-hs-cf-bound="true"
                   onSubmit={handleSubmit}
                 >

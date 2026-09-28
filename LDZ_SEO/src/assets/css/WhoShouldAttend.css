@@ -3,128 +3,108 @@
     width: 100%;
 }
 
-.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div {
-    align-items: stretch;
-    display: flex;
-    margin: 0 auto;
-    max-width: 1920px;
-    min-height: 500px;
+.BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY {
+    background-color: #f1f1f1;
+    padding: 100px 0;
 }
 
-.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_imageContainer__dQ2Lk {
-    background-position: 50%;
-    background-size: cover;
-    width: 50%;
+@media only screen and (max-width:1419px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY {
+        padding: 60px 0;
+    }
 }
 
-.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 95px 100px 100px 149px;
-    width: 50%;
+@media only screen and (max-width:768px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY {
+        padding: 34px 0 30px;
+    }
 }
 
-.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh h2 {
+.BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY h2 {
     color: #181818;
     font-size: 36px;
     font-weight: 800;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width:1419px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY h2 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY h2 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY h2 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+}
+
+.BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY h2 {
     line-height: 30px;
-    margin: 0;
-    text-transform: uppercase;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
-.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD {
-    margin: 40px 0 45px;
-    padding: 0;
+@media only screen and (max-width:768px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY h2 {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
 }
 
-.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD p {
-    color: #181818;
-    font-size: 16px;
-    font-weight: 800;
-    -webkit-hyphens: none;
-    hyphens: none;
-    line-height: 28px;
-    margin: 0 0 30px;
-    padding: 0;
+@media only screen and (max-width:480px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY h2 {
+        font-size: 22px;
+        padding: 0 7px;
+    }
 }
 
-.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD p strong {
-    color: #181818;
-    font-weight: 800;
-}
-
-.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD ul {
-    list-style-type: none;
-    margin: 0;
-}
-
-.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD ul li {
-    color: #181818;
-    font-size: 16px;
-    font-weight: 600;
-    margin: 0 0 30px;
-    position: relative;
-}
-
-.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD ul li:before {
-    background-color: var(--secondary-color);
-    border-radius: 2px;
-    content: " ";
-    display: inline-block;
-    height: 9px;
-    left: 0;
-    margin-right: 12px;
-    min-height: 9px;
-    min-width: 9px;
-    position: relative;
-    top: -2px;
-    width: 9px;
-}
-
-.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh button {
-    background-color: var(--secondary-color);
-    border: none;
-    border-radius: 2px;
-    color: #fff;
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: 800;
-    height: 77px;
-    text-transform: uppercase;
-    transition: .3s;
-}
-
-.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh button:hover {
-    background-color: #e4e4e4;
-    color: var(--secondary-color);
-    border: 1px solid #0000;
-}
-
-.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div {
-    align-items: stretch;
+.BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY .BenefitScreen_ratingCardContainer__0LX-B {
+    align-items: center;
+    column-gap: 20px;
     display: flex;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
     margin: 0 auto;
-    max-width: 1920px;
-    min-height: 500px;
+    max-width: 1200px;
+    row-gap: 20px;
+    width: 100%;
 }
 
-.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 95px 100px 100px 149px;
-    width: 50%;
+@media only screen and (max-width:1231px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY .BenefitScreen_ratingCardContainer__0LX-B {
+        max-width: 960px;
+    }
 }
 
-.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh h2 {
-    color: #181818;
-    font-size: 36px;
-    font-weight: 800;
-    line-height: 30px;
-    margin: 0;
-    text-transform: uppercase;
+@media only screen and (max-width:991px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY .BenefitScreen_ratingCardContainer__0LX-B {
+        grid-template-columns: repeat(2,1fr);
+        max-width: 720px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY .BenefitScreen_ratingCardContainer__0LX-B {
+        max-width: 650px;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY .BenefitScreen_ratingCardContainer__0LX-B {
+        display: block;
+        width: 94%;
+    }
 }
 
 .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I {
@@ -132,9 +112,43 @@
     padding: 95px 0 100px;
 }
 
+@media only screen and (max-width:1419px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I {
+        padding: 60px 0;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I {
+        padding: 35px 0 15px;
+    }
+}
+
 .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I h2 {
     color: #181818;
-    color: #fff;
+}
+
+@media only screen and (max-width:1419px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I h2 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I h2 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I h2 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+}
+
+.BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I h2 {
+    color: var(--yellow-theme-text-color, #fff);
     font-size: 36px;
     font-weight: 800;
     line-height: 36px;
@@ -147,11 +161,57 @@
     width: 65%;
 }
 
-.BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I>span>p {
+@media only screen and (max-width:768px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I h2 {
+        font-size: 24px;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I h2 {
+        font-size: 22px;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I h2 {
+        width: 90%;
+    }
+}
+
+.BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I>p {
     color: #fff;
     font-size: 16px;
     font-weight: 500;
-    -webkit-hyphens: none;
+    hyphens: none;
+    line-height: 28px;
+    margin: 40px auto;
+    max-width: 1920px;
+    max-width: 1248px;
+    text-align: center;
+    width: 60%;
+    width: 65%;
+}
+
+@media only screen and (max-width:768px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I>p {
+        line-height: 25;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I>p {
+        width: 90%;
+    }
+}
+
+.BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I>span>p {
+    color: var(--yellow-theme-text-color, #fff);
+    font-size: 16px;
+    font-weight: 500;
     hyphens: none;
     line-height: 28px;
     margin: 40px auto;
@@ -162,6 +222,28 @@
     width: 58%;
 }
 
+@media only screen and (max-width:1179px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I>span>p {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I>span>p {
+        font-weight: 500;
+        line-height: 24px;
+        margin-bottom: 35px;
+        margin-top: 22px;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I>span>p {
+        width: 90%;
+    }
+}
+
 .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I .BenefitScreen_box__v0Eqb {
     background-color: #fff;
     border-radius: 2px;
@@ -169,6 +251,35 @@
     max-width: 1200px;
     padding-bottom: 27px;
     width: 100%;
+}
+
+@media only screen and (max-width:1231px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I .BenefitScreen_box__v0Eqb {
+        max-width: 960px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I .BenefitScreen_box__v0Eqb {
+        max-width: 720px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I .BenefitScreen_box__v0Eqb {
+        background: #0000;
+        max-width: 650px;
+        width: 90%;
+    }
+}
+
+.BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I .BenefitScreen_box__v0Eqb p {
+    color: #181818;
+    font-size: 16px;
+    font-weight: 800;
+    margin: 40px auto;
+    text-align: center;
+    width: 70%;
 }
 
 .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I .BenefitScreen_box__v0Eqb .BenefitScreen_btnContainer__8du9I {
@@ -187,7 +298,6 @@
     font-weight: 800;
     height: 60px;
     width: 50%;
-    outline: none;
 }
 
 .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I .BenefitScreen_box__v0Eqb .BenefitScreen_btnContainer__8du9I .BenefitScreen_active__MWNpl {
@@ -195,24 +305,21 @@
     color: #fff;
 }
 
-.BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I .BenefitScreen_box__v0Eqb p {
-    color: #181818;
-    font-size: 16px;
-    font-weight: 800;
-    margin: 40px auto;
-    text-align: center;
-    width: 70%;
-}
-
 .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I .BenefitScreen_box__v0Eqb .BenefitScreen_linksContainer__HJyBO>div {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3,1fr);
     margin: 0 auto;
     width: calc(100% - 60px);
 }
 
+@media only screen and (max-width:1231px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I .BenefitScreen_box__v0Eqb .BenefitScreen_linksContainer__HJyBO>div {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
 .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I .BenefitScreen_box__v0Eqb .BenefitScreen_linksContainer__HJyBO .BenefitScreen_link__48IAR {
-    align-items: flex-start;
+    align-items: center;
     background-color: #eee;
     border-radius: 2px;
     color: #181818;
@@ -227,78 +334,329 @@
     text-decoration: none;
 }
 
-.BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY {
-    background-color: #f1f1f1;
-    padding: 100px 0;
+@media only screen and (max-width:940px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C .BenefitScreen_reverse__B1LVk {
+        flex-direction: column-reverse;
+    }
 }
 
-.BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY h2 {
+.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div {
+    align-items: stretch;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1920px;
+    min-height: 500px;
+}
+
+@media only screen and (max-width:940px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div {
+        flex-direction: column;
+    }
+}
+
+.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_imageContainer__dQ2Lk {
+    background-position: 50%;
+    background-size: cover;
+    width: 50%;
+}
+
+@media only screen and (max-width:940px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_imageContainer__dQ2Lk {
+        height: 60vh;
+        width: 100%;
+    }
+}
+
+.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 95px 100px 100px 149px;
+    width: 50%;
+}
+
+@media only screen and (max-width:1460px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh {
+        padding: 90px 80px 90px 90px;
+    }
+}
+
+@media only screen and (max-width:1339px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh {
+        padding: 70px 65px 70px 75px;
+    }
+}
+
+@media only screen and (max-width:1179px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh {
+        padding: 50px;
+    }
+}
+
+@media only screen and (max-width:940px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh {
+        margin: 0 auto;
+        padding: 35px 0 40px;
+        width: 90%;
+    }
+}
+
+.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh h2 {
     color: #181818;
-    font-size: 36px;
     font-weight: 800;
-    line-height: 30px;
-    margin-bottom: 50px;
-    text-align: center;
     text-transform: uppercase;
 }
 
-.BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY .BenefitScreen_ratingCardContainer__0LX-B {
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    align-items: center;
-    column-gap: 20px;
-    display: flex;
-    display: grid;
-    flex-wrap: wrap;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    margin: 0 auto;
-    max-width: 1200px;
-    row-gap: 20px;
-    width: 100%;
+@media only screen and (max-width:1419px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh h2 {
+        font-size: 30px;
+    }
 }
 
-.RatingCard_container__xva8\+ {
-    background-color: #fff;
-    border-radius: 2px;
-    box-shadow: 2px 3px 12px 0 #0000001a;
-    -webkit-box-shadow: 2px 3px 12px 0 #0000001a;
-    -moz-box-shadow: 2px 3px 12px 0 #0000001a;
-    display: flex;
-    flex-direction: column;
-    height: 200px;
+@media only screen and (max-width:991px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh h2 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh h2 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+}
+
+.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh h2 {
+    font-size: 36px;
+    line-height: 30px;
     margin: 0;
-    padding: 35px 25px;
-    width: 100%;
 }
 
-.RatingCard_container__xva8\+ .RatingCard_names__7PxKe {
+@media only screen and (max-width:1419px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh h2 {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh h2 {
+        font-size: 24px;
+    }
+}
+
+.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh a,
+.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh button {
+    align-items: center;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
     display: flex;
-    flex-direction: column;
+    font-size: 20px;
+    font-weight: 800;
+    height: 77px;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
 }
 
-.RatingCard_container__xva8\+ .RatingCard_names__7PxKe h4 {
-    color: #555;
+.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh a:hover,
+.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh button:hover {
+    background-color: #e4e4e4 !important;
+    border: 1px solid #0000;
+    color: var(--secondary-color);
+}
+
+@media only screen and (max-width:1460px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh a,
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh button {
+        height: 77px;
+    }
+}
+
+@media only screen and (max-width:1339px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh a,
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh button {
+        height: 66px;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh a,
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh button {
+        font-size: 18px;
+        height: 52px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh a,
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh button {
+        font-size: 16.5px;
+        height: 52px;
+    }
+}
+
+.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD {
+    margin: 40px 0 45px;
+    padding: 0;
+}
+
+@media only screen and (max-width:940px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD {
+        margin: 30px 0;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD {
+        margin: 13px 0 18px;
+    }
+}
+
+.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD p {
+    color: #181818;
     font-size: 16px;
     font-weight: 800;
-    margin: 0;
+    hyphens: none;
+    line-height: 28px;
+    margin: 0 0 30px;
     padding: 0;
 }
 
-.RatingCard_container__xva8\+ .RatingCard_names__7PxKe h4:nth-child(2) {
-    color: #266dae;
+.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD p:last-child {
+    margin-bottom: 0;
+}
+
+.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD p strong {
+    color: #181818;
+    font-weight: 800;
+}
+
+@media only screen and (max-width:940px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD p {
+        line-height: 25px;
+    }
+}
+
+.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD a {
+    color: #181818;
     font-weight: 600;
-    margin-bottom: 12px;
-    margin-top: 3px;
+    white-space: nowrap;
 }
 
-.RatingCard_container__xva8\+ p {
-    color: #484848;
-    font-size: 16px;
-    font-weight: 500;
+.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD h2 {
+    color: #181818;
+    font-size: 28px;
+    font-weight: 700;
     margin: 0;
-    padding: 0;
+    text-transform: capitalize;
 }
+
+.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD h3 {
+    color: #181818;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD h4 {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+@media only screen and (max-width:940px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD ul {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD ul {
+        margin-bottom: 13px;
+    }
+}
+
+.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD ul li {
+    color: #181818;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 30px;
+    position: relative;
+}
+
+.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD ul li strong {
+    font-weight: 800;
+}
+
+@media only screen and (max-width:940px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD ul li {
+        align-items: flex-start;
+        display: flex;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD ul li {
+        margin-bottom: 25px;
+    }
+}
+
+.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD ul li:last-child {
+    margin-bottom: 0;
+}
+
+.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD ul li strong {
+    color: #181818;
+    display: contents;
+}
+
+.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD ul li i {
+    display: contents;
+}
+
+.BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD ul li:before {
+    background-color: var(--secondary-color);
+    border-radius: 2px;
+    content: " ";
+    display: inline-block;
+    height: 9px;
+    left: 0;
+    margin-right: 12px;
+    min-height: 9px;
+    min-width: 9px;
+    position: relative;
+    top: -2px;
+    width: 9px;
+}
+
+@media only screen and (max-width:940px) {
+    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD ul li:before {
+        display: block;
+        margin-top: 5px;
+        position: static;
+    }
+}
+
+/* DropDown rules copied from the live site CSS */
 
 .DropDown_container__ojscJ {
     background-color: #fff;
@@ -307,6 +665,20 @@
 
 .DropDown_container__ojscJ:first-child {
     margin-bottom: 20px;
+}
+
+.DropDown_container__ojscJ p {
+    font-size: 16px !important;
+    margin: 0 auto !important;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    width: 90% !important;
+}
+
+@media only screen and (max-width:480px) {
+    .DropDown_container__ojscJ p {
+        font-size: 16px !important;
+    }
 }
 
 .DropDown_container__ojscJ .DropDown_dropdownToggle__s4C4x {
@@ -323,7 +695,16 @@
     padding: 0 25px;
     text-align: start;
     width: 100%;
-    outline: none;
+}
+
+@media only screen and (max-width:480px) {
+    .DropDown_container__ojscJ .DropDown_dropdownToggle__s4C4x {
+        font-size: 16px;
+    }
+}
+
+.DropDown_container__ojscJ .DropDown_dropdownToggle__s4C4x img {
+    width: 12px;
 }
 
 .DropDown_container__ojscJ .DropDown_bgGrey__jhDac {
@@ -340,28 +721,70 @@
     padding: 0 25px;
     text-align: start;
     width: 100%;
-    outline: none;
 }
 
-.DropDown_container__ojscJ .DropDown_dropdownToggle__s4C4x img {
+@media only screen and (max-width:480px) {
+    .DropDown_container__ojscJ .DropDown_bgGrey__jhDac {
+        font-size: 16px;
+    }
+}
+
+.DropDown_container__ojscJ .DropDown_bgGrey__jhDac img {
     width: 12px;
 }
 
-.BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I .BenefitScreen_box__v0Eqb p {
-    color: #181818;
-    font-size: 16px;
-    font-weight: 800;
-    margin: 40px auto;
-    text-align: center;
-    width: 70%;
+.DropDown_container__ojscJ ul {
+    background-color: #181818;
+    padding: 35px;
 }
 
-.DropDown_container__ojscJ p {
-    font-size: 16px !important;
-    margin: 0 auto !important;
-    padding-bottom: 15px;
-    padding-top: 20px;
-    width: 90% !important;
+.DropDown_container__ojscJ ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.DropDown_container__ojscJ ul li .DropDown_questionToggle__NEqb0 {
+    align-items: center;
+    background-color: #181818;
+    border: none;
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 12px 0;
+    text-align: start;
+    width: 100%;
+}
+
+.DropDown_container__ojscJ ul li .DropDown_answer__L7GEF {
+    color: #fff;
+    margin: 20px 0;
+}
+
+.DropDown_container__ojscJ ul li .DropDown_answer__L7GEF p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.DropDown_container__ojscJ ul li .DropDown_answer__L7GEF a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.DropDown_container__ojscJ ul li .DropDown_answer__L7GEF h1,
+.DropDown_container__ojscJ ul li .DropDown_answer__L7GEF h2,
+.DropDown_container__ojscJ ul li .DropDown_answer__L7GEF h3,
+.DropDown_container__ojscJ ul li .DropDown_answer__L7GEF li {
+    color: #fff;
+}
+
+.DropDown_container__ojscJ ul li .DropDown_answer__L7GEF strong {
+    color: #fff;
+    display: contents;
+    font-weight: 700;
 }
 
 .DropDown_container__ojscJ .DropDown_linksContainer__VBDsq>div {
@@ -391,281 +814,91 @@
     width: 31.63%;
 }
 
-@media only screen and (max-width: 1460px) {
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh {
-        padding: 90px 80px 90px 90px;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh button {
-        height: 77px;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh {
-        padding: 90px 80px 90px 90px;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh h2 {
-        font-size: 26px;
-    }
-}
-
-@media only screen and (max-width: 1419px) {
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh h2 {
-        font-size: 26px;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I {
-        padding: 60px 0;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I h2 {
-        font-size: 30px;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY {
-        padding: 60px 0;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY h2 {
-        font-size: 30px;
-    }
-}
-
-@media only screen and (max-width: 1339px) {
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh {
-        padding: 70px 65px 70px 75px;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh button {
-        height: 66px;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh {
-        padding: 70px 65px 70px 75px;
-    }
-}
-
-@media only screen and (max-width: 1231px) {
-    .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I .BenefitScreen_box__v0Eqb {
-        max-width: 960px;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I .BenefitScreen_box__v0Eqb .BenefitScreen_linksContainer__HJyBO>div {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY .BenefitScreen_ratingCardContainer__0LX-B {
-        max-width: 960px;
-    }
-
-    .RatingCard_container__xva8\+ {
-        height: 210px;
-    }
-}
-
-@media only screen and (max-width: 1179px) {
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh {
-        padding: 50px;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh {
-        padding: 50px;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I>span>p {
-        width: 80%;
-    }
-}
-
-@media only screen and (max-width: 991px) {
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh h2 {
-        font-size: 28px;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I h2 {
-        font-size: 28px;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I .BenefitScreen_box__v0Eqb {
-        max-width: 720px;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY h2 {
-        font-size: 28px;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY .BenefitScreen_ratingCardContainer__0LX-B {
-        grid-template-columns: repeat(2, 1fr);
-        max-width: 720px;
-    }
-
+@media only screen and (max-width:991px) {
     .DropDown_container__ojscJ .DropDown_linksContainer__VBDsq>div .DropDown_link__EYiJR {
         width: 100%;
     }
 }
 
-@media only screen and (max-width: 940px) {
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div {
-        flex-direction: column;
-    }
+/* RatingCard rules copied from the live site CSS */
 
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_imageContainer__dQ2Lk {
-        height: 60vh;
-        width: 100%;
-    }
+.RatingCard_container__xva8\+ {
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 2px 3px 12px 0 #0000001a;
+    -webkit-box-shadow: 2px 3px 12px 0 #0000001a;
+    -moz-box-shadow: 2px 3px 12px 0 #0000001a;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    margin: 0;
+    padding: 35px 25px;
+    width: 100%;
+}
 
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh {
-        margin: 0 auto;
-        padding: 35px 0 40px;
-        width: 90%;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD {
-        margin: 30px 0;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD p {
-        font-size: 16px;
-        margin-bottom: 20px;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD ul {
-        margin-bottom: 15px;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD ul li {
-        align-items: flex-start;
-        display: flex;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD ul li:before {
-        display: block;
-        margin-top: 5px;
-        position: static;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div {
-        flex-direction: column;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C .BenefitScreen_reverse__B1LVk {
-        flex-direction: column-reverse;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh {
-        margin: 0 auto;
-        padding: 35px 0 40px;
-        width: 90%;
+@media only screen and (max-width:1231px) {
+    .RatingCard_container__xva8\+ {
+        height: 210px;
     }
 }
 
-@media only screen and (max-width: 991px) {
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh h2 {
-        font-size: 28px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh h2 {
-        font-size: 24px;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD p {
-        line-height: 25px;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD ul {
-        margin-bottom: 13px;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh h2 {
-        font-size: 24px;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_attendeesSection__2a94I .BenefitScreen_box__v0Eqb {
-        background: #0000;
-        max-width: 650px;
-        width: 90%;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY {
-        padding: 34px 0 30px;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY h2 {
-        font-size: 26px;
-        margin-bottom: 15px;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY .BenefitScreen_ratingCardContainer__0LX-B {
-        max-width: 650px;
-        width: 90%;
-    }
-
+@media only screen and (max-width:768px) {
     .RatingCard_container__xva8\+ {
         margin: 0;
     }
 }
 
-@media only screen and (max-width: 639px) {
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh h2 {
-        font-size: 22px;
-        line-height: 25px;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD {
-        margin: 13px 0 0;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh button {
-        font-size: 18px;
-        height: 52px;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh h2 {
-        font-size: 22px;
-        line-height: 25px;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY h2 {
-        font-size: 22px;
-        line-height: 25px;
-    }
-
-    .BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY .BenefitScreen_ratingCardContainer__0LX-B {
-        display: block;
-        width: 94%;
-    }
-
+@media only screen and (max-width:639px) {
     .RatingCard_container__xva8\+ {
         height: auto;
         padding-bottom: 40px;
     }
 }
 
-@media only screen and (max-width: 480px) {
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh .BenefitScreen_innerContent__igZkD ul li {
-        margin-bottom: 25px;
-    }
+.RatingCard_container__xva8\+ .RatingCard_names__7PxKe {
+    display: flex;
+    flex-direction: column;
+}
 
-    .BenefitScreen_container__MwDLs .BenefitScreen_addToCakendar__LRN4C>div .BenefitScreen_textContainer__-wzXh button {
-        font-size: 16.5px;
-        height: 52px;
-    }
+.RatingCard_container__xva8\+ .RatingCard_names__7PxKe h4 {
+    color: #555;
+    font-size: 16px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
 
-    .BenefitScreen_container__MwDLs .BenefitScreen_ratingsSection__ZJkXY h2 {
-        font-size: 22px;
-    }
+.RatingCard_container__xva8\+ .RatingCard_names__7PxKe h4:nth-child(2) {
+    color: #266dae;
+    font-weight: 600;
+    margin-bottom: 12px;
+    margin-top: 3px;
+}
 
-    .DropDown_container__ojscJ .DropDown_dropdownToggle__s4C4x {
-        font-size: 16px;
+@media only screen and (max-width:639px) {
+    .RatingCard_container__xva8\+ .RatingCard_names__7PxKe h4:nth-child(2) {
+        margin-bottom: 15px;
     }
+}
 
-    .DropDown_container__ojscJ p {
-        font-size: 16px !important;
-    }
+.RatingCard_container__xva8\+ h2 {
+    color: #0f2e4a;
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0 0 15px;
+    padding: 0;
+}
 
-    .DropDown_container__ojscJ .DropDown_bgGrey__jhDac {
-        font-size: 16px;
+@media only screen and (max-width:639px) {
+    .RatingCard_container__xva8\+ h2 {
+        font-size: 20px;
     }
+}
+
+.RatingCard_container__xva8\+ p {
+    color: #484848;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
 }

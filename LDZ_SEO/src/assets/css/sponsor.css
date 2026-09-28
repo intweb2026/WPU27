@@ -547,80 +547,6 @@
     width: 100%;
 }
 
-.DetailsContainer_wholeContainer__385Iv {
-    background-color: #f1f1f1;
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX {
-    align-items: stretch;
-    display: flex;
-    margin: 0 auto;
-    max-width: 1920px;
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_imageContainer__ncJwH {
-    background-color: #e5e5e5;
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: 60%;
-    height: auto;
-    min-height: 590px;
-    width: 50%;
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 92px 150px 100px;
-    width: 50%;
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb h1 {
-    color: #181818;
-    font-size: 36px;
-    font-weight: 800;
-    margin: 0;
-    text-transform: uppercase;
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR {
-    height: 100%;
-    margin: 32px 0 42px;
-    padding: 0;
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR p {
-    color: #181818;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 28px;
-    margin: 0 0 30px;
-    padding: 0;
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb a {
-    align-items: center;
-    background-color: var(--secondary-color);
-    border: none;
-    border-radius: 2px;
-    color: #fff;
-    cursor: pointer;
-    display: flex;
-    font-size: 20px;
-    font-weight: 800;
-    justify-content: center;
-    min-height: 84px;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: .3s;
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb a:hover {
-    background-color: #fff;
-    color: var(--secondary-color);
-}
-
 .SponsorBanner_container__19tBD {
     background-color: #fff;
 }
@@ -657,147 +583,6 @@
 .SponsorBanner_container__19tBD .SponsorBanner_PartnerSponsorContainer__zdVCD .SponsorBanner_imageContainer__xHm3Z img {
     max-width: 550px;
     width: 100%;
-}
-
-.SponsorCards_container__o3uWn {
-    background-color: #f1f1f1;
-    min-height: 234px;
-}
-
-.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L {
-    margin: 0 auto;
-    max-width: 1920px;
-    padding: 100px 0 90px;
-}
-
-.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L h2 {
-    color: #181818;
-    font-size: 36px;
-    font-weight: 800;
-    line-height: 30px;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin: 40px auto 0;
-    max-width: 1220px;
-    width: 100%;
-}
-
-.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div>img {
-    cursor: pointer;
-}
-
-.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin: 0 30px;
-    max-width: 1220px;
-    padding: 0;
-    width: 100%;
-}
-
-.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca div {
-    width: 100%;
-}
-
-.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div {
-    display: block;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
-.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL {
-    grid-gap: 20px;
-    display: grid !important;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    margin: 0 auto;
-    width: 100%;
-    width: -webkit-max-content;
-    width: max-content;
-}
-
-.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT {
-    align-items: center;
-    background-color: #fff;
-    border-radius: 2px;
-    box-shadow: 3px 3px 8px 1px #00000026;
-    -webkit-box-shadow: 3px 3px 8px 1px #00000026;
-    -moz-box-shadow: 3px 3px 8px 1px #00000026;
-    break-inside: avoid-column;
-    cursor: pointer;
-    display: flex;
-    height: 250px;
-    justify-content: center;
-    position: relative;
-}
-
-.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT img {
-    height: auto;
-    max-height: 50%;
-    object-fit: contain;
-    width: 50%;
-}
-
-.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT .SponsorCards_overlay__7MT16 {
-    align-items: center;
-    background-color: rgba(0, 0, 0, .745);
-    border-radius: 2px;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: center;
-    left: 0;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    transition: opacity .3s ease;
-    width: 100%;
-}
-
-.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT:hover h4 {
-    color: #fff;
-    font-size: 30px;
-    font-weight: 700;
-    margin: 0 auto;
-    text-align: center;
-    text-transform: capitalize;
-    transition: opacity .3s ease-in-out;
-}
-
-.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT:hover h4:first-child {
-    border-bottom: 3px solid var(--primary-color);
-    padding: 10px;
-    text-shadow: 0 4px 6px rgba(0, 0, 0, .373);
-    transition: opacity .3s ease-in-out;
-    width: 70%
-}
-
-.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT:hover h4:nth-child(2) {
-    font-size: 24px;
-    font-style: italic;
-    font-weight: 600;
-    margin-top: 10px;
-    text-shadow: 0 4px 6px rgba(0, 0, 0, .373);
-    transition: opacity .3s ease-in-out;
-}
-
-.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT:hover .SponsorCards_overlay__7MT16 {
-    opacity: 1;
-}
-
-.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL:last-child {
-    margin-bottom: 0;
 }
 
 .benefit-icon svg {
@@ -1060,16 +845,7 @@
     text-decoration: underline !important;
 }
 
-@media only screen and (max-width: 1619px) {
-    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div {
-        margin: 0 20px;
-    }
-}
-
 @media only screen and (max-width: 1460px) {
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb {
-        padding: 90px 80px 90px 90px;
-    }
 
     .SponsorsScreen_container__a4ngc .SponsorsScreen_exhibitCardContainer__6IHeV>div .SponsorsScreen_exhibitCard__nXsu2 h4 {
         font-size: 20px;
@@ -1089,23 +865,11 @@
         font-size: 30px;
     }
 
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb h1 {
-        font-size: 26px;
-    }
-
     .SponsorBanner_container__19tBD .SponsorBanner_PartnerSponsorContainer__zdVCD {
         padding: 60px 0 50px;
     }
 
     .SponsorBanner_container__19tBD .SponsorBanner_PartnerSponsorContainer__zdVCD h2 {
-        font-size: 30px;
-    }
-
-    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L {
-        padding: 60px 0 50px;
-    }
-
-    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L h2 {
         font-size: 30px;
     }
 
@@ -1130,28 +894,7 @@
     }
 }
 
-@media only screen and (max-width: 1339px) {
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb {
-        padding: 70px 65px 70px 75px;
-    }
-
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb a {
-        min-height: 77px;
-    }
-
-    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div {
-        max-width: 980px;
-    }
-
-    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca {
-        max-width: 980px;
-    }
-}
-
 @media only screen and (max-width: 1231px) {
-    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL {
-        grid-template-columns: repeat(2, 1fr);
-    }
 
     .SponsorsScreen_container__a4ngc .SponsorsScreen_exhibitCardContainer__6IHeV>div {
         max-width: 960px;
@@ -1171,24 +914,6 @@
     }
 }
 
-@media only screen and (max-width: 1179px) {
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb {
-        padding: 50px;
-    }
-
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb a {
-        min-height: 65px;
-    }
-
-    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div {
-        max-width: 740px;
-    }
-
-    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca {
-        max-width: 740px;
-    }
-}
-
 @media only screen and (max-width: 991px) {
     .SponsorsScreen_exhibitCardContainer__6IHeV h2 {
         font-size: 28px;
@@ -1204,10 +929,6 @@
     }
 
     .SponsorBanner_container__19tBD .SponsorBanner_PartnerSponsorContainer__zdVCD h2 {
-        font-size: 28px;
-    }
-
-    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L h2 {
         font-size: 28px;
     }
 
@@ -1261,31 +982,6 @@
 }
 
 @media only screen and (max-width: 940px) {
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX {
-        flex-direction: column;
-    }
-
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_imageContainer__ncJwH {
-        height: 65vh;
-        max-height: 550px;
-        min-height: 400px;
-        width: 100%;
-    }
-
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb {
-        margin: 0 auto;
-        padding: 33px 0 38px;
-        width: 90%;
-    }
-
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb a {
-        font-size: 16.5px;
-        min-height: 50px;
-    }
-
-    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT {
-        height: 200px;
-    }
 
 
     .SponsorsScreen_container__a4ngc .SponsorsScreen_exhibitCardContainer__6IHeV {
@@ -1317,37 +1013,14 @@
     }
 }
 
-@media only screen and (max-width: 850px) {
-    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div>img {
-        display: none;
-    }
-}
-
 @media only screen and (max-width: 768px) {
     .SponsorsScreen_container__a4ngc .SponsorsScreen_exhibitCardContainer__6IHeV>div {
         max-width: 650px;
         width: 90%;
     }
 
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb h1 {
-        font-size: 24px;
-    }
-
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR {
-        margin: 40px 0;
-    }
-
     .SponsorBanner_container__19tBD .SponsorBanner_PartnerSponsorContainer__zdVCD .SponsorBanner_imageContainer__xHm3Z img {
         max-width: 450px;
-    }
-
-    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca {
-        max-width: 670px;
-        width: 94%;
-    }
-
-    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT .SponsorCards_overlay__7MT16 {
-        display: none;
     }
 
     .SponsorsScreen_container__a4ngc .SponsorsScreen_sponsorsHelp__-E0Kh h2 {
@@ -1370,22 +1043,6 @@
 }
 
 @media only screen and (max-width: 639px) {
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_imageContainer__ncJwH {
-        max-height: 400px;
-    }
-
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb h1 {
-        font-size: 22px;
-    }
-
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR {
-        margin: 20px 0;
-    }
-
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR p {
-        font-size: 16px;
-        line-height: 25px;
-    }
 
     .SponsorBanner_container__19tBD .SponsorBanner_PartnerSponsorContainer__zdVCD {
         padding-bottom: 30px;
@@ -1404,29 +1061,6 @@
 
     .SponsorBanner_container__19tBD .SponsorBanner_PartnerSponsorContainer__zdVCD .SponsorBanner_imageContainer__xHm3Z img {
         max-width: 300px;
-    }
-
-    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L {
-        padding-bottom: 30px;
-        padding-top: 36px;
-    }
-
-    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L h2 {
-        font-size: 22px;
-        line-height: 25px;
-        /* margin-bottom: 25px; */
-    }
-
-    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div {
-        margin-top: 15px;
-    }
-
-    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca {
-        position: relative;
-    }
-
-    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT {
-        height: 132px;
     }
 
 
@@ -1507,32 +1141,13 @@
 }
 
 @media only screen and (max-width: 480px) {
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR {
-        margin: 15px 0 20px;
-    }
 
     .SponsorBanner_container__19tBD .SponsorBanner_PartnerSponsorContainer__zdVCD .SponsorBanner_imageContainer__xHm3Z img {
         max-width: 250px;
     }
 
-    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT {
-        height: 120px;
-    }
-
     .SponsorsScreen_container__a4ngc .SponsorsScreen_contactContainer__c6iss>div .SponsorsScreen_contactCard__q2HNX {
         padding: 36px 20px 38px;
-    }
-}
-
-@media only screen and (max-width: 420px) {
-    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL {
-        display: flex !important;
-        flex-wrap: wrap;
-    }
-
-    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT {
-        height: 100px;
-        width: calc(50% - 10px);
     }
 }
 
@@ -1542,10 +1157,360 @@
     }
 }
 
-.Form_container__jwPCR>div>div .Form_form__nhNBc>div>div p {
-    color: red;
-    margin: 10px 0 0;
+/* SponsorCards rules copied from the live site CSS */
+
+.SponsorCards_container__o3uWn {
+    background-color: #f1f1f1;
+    min-height: 234px;
+}
+
+.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L {
+    margin: 0 auto;
+    max-width: 1920px;
+    padding: 100px 0 90px;
+}
+
+@media only screen and (max-width:1419px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L {
+        padding: 60px 0 50px;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L {
+        padding-bottom: 30px;
+        padding-top: 36px;
+    }
+}
+
+.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L h2 {
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width:1419px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L h2 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L h2 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L h2 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+}
+
+.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L h2 {
+    color: #181818;
+    line-height: 30px;
+    margin: 0;
     padding: 0;
-    text-align: left;
+    text-align: center;
+}
+
+.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto 0;
+    max-width: 1220px;
     width: 100%;
+}
+
+@media only screen and (max-width:1339px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div {
+        max-width: 980px;
+    }
+}
+
+@media only screen and (max-width:1179px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div {
+        max-width: 740px;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div {
+        margin-top: 15px;
+    }
+}
+
+.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div>img {
+    cursor: pointer;
+}
+
+@media only screen and (max-width:850px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div>img {
+        display: none;
+    }
+}
+
+.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 30px;
+    max-width: 1220px;
+    padding: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width:1339px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca {
+        max-width: 980px;
+    }
+}
+
+@media only screen and (max-width:1179px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca {
+        max-width: 740px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca {
+        max-width: 670px;
+        width: 94%;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca {
+        position: relative;
+    }
+}
+
+.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca button {
+    background: #0000;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width:639px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca button {
+        bottom: -47.5px;
+        position: absolute;
+        right: 0;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca button {
+        right: -10px;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca button:first-child {
+        right: 8%;
+    }
+}
+
+.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca div {
+    width: 100%;
+}
+
+.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width:1619px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div {
+        margin: 0 20px;
+    }
+}
+
+.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL {
+    grid-gap: 20px;
+    display: grid !important;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    width: max-content;
+}
+
+.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL:last-child {
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width:1231px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media only screen and (max-width:420px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL {
+        display: flex !important;
+        flex-wrap: wrap;
+    }
+}
+
+.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 3px 3px 8px 1px #00000026;
+    -webkit-box-shadow: 3px 3px 8px 1px #00000026;
+    -moz-box-shadow: 3px 3px 8px 1px #00000026;
+    break-inside: avoid-column;
+    cursor: pointer;
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    position: relative;
+}
+
+@media only screen and (max-width:940px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT {
+        height: 132px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT {
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width:420px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT {
+        height: 100px;
+        width: calc(50% - 10px);
+    }
+}
+
+.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT img {
+    height: auto;
+    max-height: 50%;
+    object-fit: contain;
+    width: auto;
+}
+
+@media only screen and (max-width:639px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT img {
+        width: 70%;
+    }
+}
+
+.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT .SponsorCards_overlay__7MT16 {
+    align-items: center;
+    background-color: rgba(0,0,0,.745);
+    border-radius: 2px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    text-decoration: none;
+    top: 0;
+    transition: opacity .3s ease;
+    width: 100%;
+}
+
+@media only screen and (max-width:768px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT .SponsorCards_overlay__7MT16 {
+        display: none;
+    }
+}
+
+.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT:hover .SponsorCards_overlay__7MT16 {
+    opacity: 1;
+    text-decoration: none;
+}
+
+.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT h4 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: capitalize;
+    transition: opacity .3s ease-in-out;
+}
+
+@media only screen and (max-width:940px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT h4 {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT h4 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT h4 {
+        font-size: 16px;
+    }
+}
+
+.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT h4:first-child {
+    border-bottom: 3px solid var(--primary-color);
+    padding-bottom: 10px;
+    text-shadow: 0 4px 6px rgba(0,0,0,.373);
+    transition: opacity .3s ease-in-out;
+    width: 70%;
+}
+
+.SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT h4:nth-child(2) {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 10px;
+    text-shadow: 0 4px 6px rgba(0,0,0,.373);
+    transition: opacity .3s ease-in-out;
+}
+
+@media only screen and (max-width:940px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT h4:nth-child(2) {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT h4:nth-child(2) {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT h4:nth-child(2) {
+        font-size: 16px;
+        max-height: 46%;
+    }
+}
+
+/* The live site serves sponsor logos resized to fit 200x100 (/api/image?w=200&h=100).
+   The local backend sends the original file, so the same box is set here. */
+@media only screen and (min-width: 640px) {
+    .SponsorCards_container__o3uWn .SponsorCards_AttendeesContainer__PLZ7L>div .SponsorCards_cardContainerOuter__yj9ca>div .SponsorCards_cardContainerInner__BPPEL .SponsorCards_card__8eNkT img {
+        height: auto;
+        max-height: 100px;
+        max-width: 200px;
+    }
 }

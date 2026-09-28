@@ -138,7 +138,7 @@ const News = () => {
     const date = new Date(dateString);
     if (isNaN(date.getTime())) return "";
 
-    const day = date.toLocaleDateString("en-GB", { day: "2-digit" });
+    const day = date.toLocaleDateString("en-GB", { day: "numeric" });
     const month = date
       .toLocaleDateString("en-GB", { month: "short" })
       .toUpperCase();

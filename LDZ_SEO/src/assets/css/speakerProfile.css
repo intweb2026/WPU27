@@ -1,173 +1,164 @@
-.DetailsContainer_wholeContainer__385Iv {
-    background-color: rgb(241, 241, 241);
+
+
+/* SpeakerBio rules copied from the live site CSS */
+
+.SpeakerBio_container__4uadj .SpeakerBio_speakerCotainer__0JDv6 {
+    background-color: #f1f1f1;
+    display: flex;
 }
 
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX {
-    align-items: stretch;
-    display: flex;
-    margin: 0px auto;
-    max-width: 1920px;
+@media only screen and (max-width:940px) {
+    .SpeakerBio_container__4uadj .SpeakerBio_speakerCotainer__0JDv6 {
+        flex-direction: column;
+    }
 }
 
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 92px 150px 100px;
+.SpeakerBio_container__4uadj .SpeakerBio_speakerCotainer__0JDv6>div {
     width: 50%;
 }
 
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_imageContainer__ncJwH {
-    background-color: #e5e5e5;
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: 60%;
-    height: auto;
-    min-height: 590px;
-    width: 50%;
+@media only screen and (max-width:940px) {
+    .SpeakerBio_container__4uadj .SpeakerBio_speakerCotainer__0JDv6>div {
+        width: 100%;
+    }
 }
 
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR {
+.SpeakerBio_container__4uadj .SpeakerBio_speakerCotainer__0JDv6 .SpeakerBio_left__un6v4 {
+    border: 2px solid blue;
+}
+
+@media only screen and (max-width:940px) {
+    .SpeakerBio_container__4uadj .SpeakerBio_speakerCotainer__0JDv6 .SpeakerBio_left__un6v4 {
+        height: 40vh;
+    }
+}
+
+.SpeakerBio_container__4uadj .SpeakerBio_speakerCotainer__0JDv6 .SpeakerBio_left__un6v4 img {
     height: 100%;
-    margin: 32px 0px 42px;
-    padding: 0px;
+    object-fit: cover;
+    width: 100%;
 }
 
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb h1 {
-    color: rgb(24, 24, 24);
-    font-size: 36px;
-    font-weight: 800;
-    margin: 0px;
-    text-transform: uppercase;
+.SpeakerBio_container__4uadj .SpeakerBio_speakerCotainer__0JDv6 .SpeakerBio_right__W1h36 {
+    padding: 99px 151px 101px;
 }
 
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR h3 {
-    color: rgb(24, 24, 24);
-    font-size: 24px;
-    font-weight: 800;
-    margin: 0px;
-    text-transform: capitalize;
+@media only screen and (max-width:1339px) {
+    .SpeakerBio_container__4uadj .SpeakerBio_speakerCotainer__0JDv6 .SpeakerBio_right__W1h36 {
+        padding: 20px 40px;
+    }
 }
 
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR p {
-    color: rgb(24, 24, 24);
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 28px;
-    margin: 0px 0px 30px;
-    padding: 0px;
+@media only screen and (max-width:480px) {
+    .SpeakerBio_container__4uadj .SpeakerBio_speakerCotainer__0JDv6 .SpeakerBio_right__W1h36 {
+        margin: 0 auto;
+        padding: 42px 0;
+        width: 92%;
+    }
 }
 
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR p:last-child {
-    font-size: 16px;
-    margin-bottom: 0px;
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb a {
-    align-items: center;
+.SpeakerBio_container__4uadj .SpeakerBio_speakerCotainer__0JDv6 .SpeakerBio_right__W1h36>div button {
     background-color: var(--secondary-color);
     border: none;
-    border-radius: 2px;
     color: #fff;
-    cursor: pointer;
-    display: flex;
     font-size: 20px;
     font-weight: 800;
-    justify-content: center;
-    min-height: 84px;
-    text-decoration: none;
+    height: 84px;
+    margin: 0;
+    padding: 0;
     text-transform: uppercase;
-    transition: .3s;
+    width: 100%;
 }
 
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb a:hover {
-    background-color: rgb(214, 214, 214);
-    color: var(--secondary-color);
-}
-
-@media only screen and (max-width: 1460px) {
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb {
-        padding: 90px 80px 90px 90px;
+@media only screen and (max-width:480px) {
+    .SpeakerBio_container__4uadj .SpeakerBio_speakerCotainer__0JDv6 .SpeakerBio_right__W1h36>div button {
+        font-size: 16px;
+        height: 52px;
     }
 }
 
-@media only screen and (max-width: 1419px) {
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb h1 {
-        font-size: 26px;
+.SpeakerBio_container__4uadj .SpeakerBio_speakerCotainer__0JDv6 .SpeakerBio_right__W1h36>div h1 {
+    color: #181818;
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width:1419px) {
+    .SpeakerBio_container__4uadj .SpeakerBio_speakerCotainer__0JDv6 .SpeakerBio_right__W1h36>div h1 {
+        font-size: 30px;
     }
 }
 
-@media only screen and (max-width: 1339px) {
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb {
-        padding: 70px 65px 70px 75px;
-    }
-
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb a {
-        min-height: 77px;
-    }
-}
-
-@media only screen and (max-width: 1179px) {
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb {
-        padding: 50px;
-    }
-
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb a {
-        min-height: 65px;
-    }
-}
-
-@media only screen and (max-width: 991px) {
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb h1 {
+@media only screen and (max-width:991px) {
+    .SpeakerBio_container__4uadj .SpeakerBio_speakerCotainer__0JDv6 .SpeakerBio_right__W1h36>div h1 {
         font-size: 28px;
     }
 }
 
-@media only screen and (max-width: 940px) {
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX {
-        flex-direction: column;
-    }
-
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb {
-        margin: 0px auto;
-        padding: 33px 0px 38px;
-        width: 90%;
-    }
-
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb a {
-        font-size: 16.5px;
-        min-height: 50px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR {
-        margin: 40px 0px;
-    }
-
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb h1 {
-        font-size: 24px;
-    }
-}
-
-@media only screen and (max-width: 639px) {
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR {
-        margin: 20px 0px;
-    }
-
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb h1 {
+@media only screen and (max-width:639px) {
+    .SpeakerBio_container__4uadj .SpeakerBio_speakerCotainer__0JDv6 .SpeakerBio_right__W1h36>div h1 {
         font-size: 22px;
         line-height: 25px;
     }
+}
 
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR p {
-        font-size: 16px;
-        line-height: 25px;
+.SpeakerBio_container__4uadj .SpeakerBio_speakerCotainer__0JDv6 .SpeakerBio_right__W1h36>div h1 {
+    margin: 0 0 40px;
+    padding: 0;
+}
+
+@media only screen and (max-width:480px) {
+    .SpeakerBio_container__4uadj .SpeakerBio_speakerCotainer__0JDv6 .SpeakerBio_right__W1h36>div h1 {
+        font-size: 22px;
+        margin-bottom: 22px;
     }
 }
 
-@media only screen and (max-width: 480px) {
-    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR {
-        margin: 15px 0px 20px;
+.SpeakerBio_container__4uadj .SpeakerBio_speakerCotainer__0JDv6 .SpeakerBio_right__W1h36>div strong {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 5px;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+.SpeakerBio_container__4uadj .SpeakerBio_speakerCotainer__0JDv6 .SpeakerBio_right__W1h36>div p {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    word-break: break-word;
+}
+
+@media only screen and (max-width:768px) {
+    .SpeakerBio_container__4uadj .SpeakerBio_speakerCotainer__0JDv6 .SpeakerBio_right__W1h36>div p {
+        margin-bottom: 22px;
+    }
+}
+
+.SpeakerBio_container__4uadj .SpeakerBio_speakerCotainer__0JDv6 .SpeakerBio_right__W1h36>div p:nth-child(2) {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+@media only screen and (max-width:480px) {
+    .SpeakerBio_container__4uadj .SpeakerBio_speakerCotainer__0JDv6 .SpeakerBio_right__W1h36>div p:nth-child(2) {
+        font-size: 18px;
+    }
+}
+
+.SpeakerBio_container__4uadj .SpeakerBio_speakerCotainer__0JDv6 .SpeakerBio_right__W1h36>div p:nth-child(2) span {
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+@media only screen and (max-width:480px) {
+    .SpeakerBio_container__4uadj .SpeakerBio_speakerCotainer__0JDv6 .SpeakerBio_right__W1h36>div p:nth-child(2) span {
+        font-size: 18px;
     }
 }

@@ -403,7 +403,7 @@ const PastAttandessSection = () => {
           <div className="HomeScreen_card__eORgl">
             <h3>subscribe for updates</h3>
             <form
-              id="LDZ-(Subscribe For Updates 2026)"
+              id="WPU-(Subscribe For Updates 2027)"
               encType="multipart/form-data"
               method="POST"
               onSubmit={submitBtnClk}

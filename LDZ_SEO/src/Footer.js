@@ -79,7 +79,7 @@ const Footer = () => {
               <a href="/" style={{ textDecoration: "none", color: "inherit" }}>
                 <img
                   src={mediaUrl(navLogos?.whiteLogo)}
-                  alt="LDZ Logo"
+                  alt="Ultra-Pure Water Summit Logo"
                   height={64}
                 />
               </a>
@@ -130,7 +130,7 @@ const Footer = () => {
           <div className="Footer_footerIconsContainer__CAONl">
             <a
               target="_blank"
-              href={`mailto:${email}?subject=Litihium Downstream Summit 2026`}
+              href={`mailto:${email}?subject=Ultra-Pure Water Summit 2027`}
             >
               <img
                 src={emailImage}
@@ -169,7 +169,7 @@ const Footer = () => {
             </div>
             <div className="Footer_footerQuickLinks__dTpfQ">
               <h5>CONTACT US</h5>
-              <a href="mailto:delegates@iq-hub.com?subject=Lithium Downstream Summit 2026">
+              <a href="mailto:delegates@iq-hub.com?subject=Ultra-Pure Water Summit 2027">
                 Email
               </a>
               <a href="/pay-online">Pay Online</a>
@@ -199,7 +199,7 @@ const Footer = () => {
               IQ International PTe. LTD
             </a>
           </p>
-          <p>©2026 Lithium Downstream Summit 2026</p>
+          <p>©2026 Ultra-Pure Water Summit 2027</p>
         </div>
         <div
           style={{

@@ -501,7 +501,7 @@ const Agenda = () => {
             </div>
             {/* ================ The agenda will be released soon ================ */}
             {/* <div className="AgendaScreen_agendaContainer__F7gzR">
-              <h2>Program 2026</h2>
+              <h2>Program 2027</h2>
               <div className="AgendaScreen_comingContainer__IXJNn">
                 <h3>The agenda will be released soon</h3>
                 <p>
@@ -514,7 +514,7 @@ const Agenda = () => {
             {/* ================ The agenda will be Rolling Out Soon ================ */}
             {/* <div className='AgendaScreen_agendaContainer__F7gzR'>
               <div className="AgendaScreen_releaseSoon__K1RT9">
-                <h3>Program 2026: Rolling Out Soon</h3>
+                <h3>Program 2027: Rolling Out Soon</h3>
                 <p>Interested in speaking at this event? Reach out to
                   <a href="mailto:sean.collins@iq-hub.com?subject=BioAg%20Congress%202026"> sean.collins@iq-hub.com </a>
                   with the event name in the subject line.
@@ -1728,24 +1728,24 @@ const Agenda = () => {
             {/* =========== Benny's Day Seperate integrated Agenda code =========== */}
             {agendaVersion === 'ReleasedSoon' ?
               <div className="AgendaScreen_agendaContainer__F7gzR">
-                <h2>Program 2026</h2>
+                <h2>Program 2027</h2>
                 <div className="AgendaScreen_comingContainer__IXJNn">
                   <h3>The agenda will be released soon</h3>
                   <p>
                     Interested in speaking at this event? Reach out to{' '}
-                    <a href="mailto:sean.collins@iq-hub.com?subject=Lithium Downstream Summit 2026">sean.collins@iq-hub.com</a>
+                    <a href="mailto:sean.collins@iq-hub.com?subject=Ultra-Pure Water Summit 2027">sean.collins@iq-hub.com</a>
                     {' '}with the event name in the subject line.
                   </p>
                 </div>
               </div>
               :
               <div className="AgendaScreen_agendaContainer__F7gzR">
-                {agendaVersion === 'Version-1' || agendaVersion === 'Version-2' ? <h2>Program 2026</h2> : null}
+                {agendaVersion === 'Version-1' || agendaVersion === 'Version-2' ? <h2>Program 2027</h2> : null}
                 {agendaVersion === 'RollingOutSoon' ?
                   <div className="AgendaScreen_releaseSoon__K1RT9">
-                    <h3>Program 2026: Rolling Out Soon</h3>
+                    <h3>Program 2027: Rolling Out Soon</h3>
                     <p>Interested in speaking at this event? Reach out to
-                      <a href="mailto:sean.collins@iq-hub.com?subject=Lithium Downstream Summit 2026"> sean.collins@iq-hub.com </a>
+                      <a href="mailto:sean.collins@iq-hub.com?subject=Ultra-Pure Water Summit 2027"> sean.collins@iq-hub.com </a>
                       with the event name in the subject line.
                     </p>
                   </div>
@@ -2795,11 +2795,11 @@ const Agenda = () => {
                     BECOME A SPEAKER & JOIN THE CONVERSATION
                   </h2>
                   <form
-                    id="LDZ-(Become a Speaker & Join the Conversation 2026)"
+                    id="WPU-(Become a Speaker & Join the Conversation 2027)"
                     method="POST"
                     onSubmit={submitBtnClk}
                   >
-                    <div className="LDZ_2026_quick_proposal Form_form__nhNBc form_LDZ">
+                    <div className="WPU_2027_quick_proposal Form_form__nhNBc form_WPU">
                       <div>
                         <div>
                           <input

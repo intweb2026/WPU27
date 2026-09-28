@@ -271,7 +271,7 @@ const SlideShare = () => {
                                                 </span>{" "}
                                                 to view a full list of delegates registered to attend{" "}
                                                 <span className="Slideshare_authPara3Span__zPzva">
-                                                    Litihium Downstream Summit 2026
+                                                    Ultra-Pure Water Summit 2027
                                                 </span>
                                             </p>
                                             <button onClick={handleLogout}>Logout</button>
@@ -346,7 +346,7 @@ const SlideShare = () => {
                                     <p>
                                         The{" "}
                                         <span style={{ fontWeight: 800 }}>
-                                            Litihium Downstream Summit 2026{" "}
+                                            Ultra-Pure Water Summit 2027{" "}
                                         </span>
                                         is the only event delivering cutting-edge market intelligence
                                         and sector-specific insights into innovative water treatment
@@ -475,7 +475,7 @@ const SlideShare = () => {
                     </button>
                 </div>
                 <div className="Slideshare_tableContainer__J6uzu">
-                    <h3>Registered Delegate: Litihium Downstream Summit 2026</h3>
+                    <h3>Registered Delegate: Ultra-Pure Water Summit 2027</h3>
                     <table style={{ width: "100%", borderCollapse: "collapse" }}>
                         <thead>
                             <tr style={{ backgroundColor: "#181818" }}>

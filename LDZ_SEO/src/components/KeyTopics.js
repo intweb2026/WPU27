@@ -9,7 +9,7 @@ const KeyTopics = () => {
   const keyPointList = ssrKeyPointList || [];
   return (
     <article className="TopicSection_topicSection__Tc8jF">
-      <h2>key topics for 2026</h2>
+      <h2>key topics for 2027</h2>
       <div className="TopicSection_topicsContainer__-dntb">
         {keyPointList.map((topic, index) => (
           <div key={index} className="TopicSection_topic__dNISv">

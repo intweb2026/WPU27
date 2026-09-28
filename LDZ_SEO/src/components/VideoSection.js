@@ -28,6 +28,10 @@ const VideoSection = () => {
 
   return (
     <>
+      {/* The live site loads this link rule only with the home page CSS */}
+      <Helmet>
+        <style type="text/css">{"a{text-decoration:none}"}</style>
+      </Helmet>
     {themeSettings?.editorStyle && (
         <Helmet>
           <style type="text/css">{themeSettings.editorStyle}</style>
@@ -81,25 +85,25 @@ const VideoSection = () => {
                 }}
               >
                 <div>
-                  {/* Annual code */}
-                  <span>
-                    2
-                    <sup>nd</sup>
-                    {" "}Annual
-                  </span>
                   <h1 dangerouslySetInnerHTML={{
                     __html: cleanHtml(themeSettings?.headerContent)
                   }}>
                   </h1>
                 </div>
-                <p className="HeaderTextLg">
-                  {eventDetails?.eventDate} | {eventDetails?.eventLocation}
-                </p>
-                <p className="HeaderTextSm">
-                  {eventDetails?.eventDate}
-                  <br />
-                  {eventDetails?.eventLocation}
-                </p>
+                {/* Same markup as the live site so the editor style selectors apply */}
+                <div className="HeaderTextLg">
+                  <p className="annualization">
+                    <span>
+                      2<sup>nd</sup> Annual
+                    </span>
+                  </p>
+                  {eventDetails?.eventDate && (
+                    <p className="eventDates">{eventDetails.eventDate}</p>
+                  )}
+                  {eventDetails?.eventLocation && (
+                    <p className="eventLocation">{eventDetails.eventLocation}</p>
+                  )}
+                </div>
               </div>
             </div>
           </div>

@@ -1,32 +1,32 @@
-# Lithium Downstream Summit 2026
+# Ultra-Pure Water Summit 2027
 
-> A two-day in-person summit in Melbourne, Australia focused on lithium refining, project bankability, capital deployment, and battery supply chain security. Organised by iQ-Hub.
+> The 2nd annual two-day in-person summit in Austin, Texas, USA focused on securing water supply and water reuse for semiconductor manufacturing, covering advanced treatment trains, water reclamation, zero-liquid discharge, and AI-driven monitoring of ultrapure water systems. Organised by iQ-Hub.
 
-- Location: Melbourne, Victoria, Australia
+- Location: Austin, Texas, USA
 
-- Date: December 2026 (exact dates published on the Program page)
+- Date: March 31 - April 1, 2027
 
 - Format: In-person conference
 
-- Industry: Critical Minerals and Battery Supply Chain
+- Industry: Semiconductor Manufacturing and Water Treatment
 
 ## Key Pages
 
-- [Home](https://www.australia.lithium-downstream-summit.com/): Event overview, themes, and highlights
+- [Home](https://www.ultra-pure-water-summit.com/): Event overview, themes, and highlights
 
-- [Agenda](https://www.australia.lithium-downstream-summit.com/agenda-page): Full event agenda and session details (requires email signup and verification)
+- [Agenda](https://www.ultra-pure-water-summit.com/agenda-page): Full event agenda and session details (requires email signup and verification)
 
-- [Who Should Attend](https://www.australia.lithium-downstream-summit.com/who-should-attend): Target audience and delegate benefits
+- [Who Should Attend](https://www.ultra-pure-water-summit.com/who-should-attend): Target audience and delegate benefits
 
-- [Featured Speakers](https://www.australia.lithium-downstream-summit.com/featured-speakers): Confirmed speaker lineup
+- [Featured Speakers](https://www.ultra-pure-water-summit.com/featured-speakers): Confirmed speaker lineup
 
-- [Sponsors](https://www.australia.lithium-downstream-summit.com/sponsors): Sponsorship partners and exhibitors
+- [Sponsors](https://www.ultra-pure-water-summit.com/sponsors): Sponsorship partners and exhibitors
 
-- [Venue](https://www.australia.lithium-downstream-summit.com/venue): Location and logistics
+- [Venue](https://www.ultra-pure-water-summit.com/venue): Location and logistics
 
-- [News](https://www.australia.lithium-downstream-summit.com/news): Industry news and event updates
+- [News](https://www.ultra-pure-water-summit.com/news): Industry news and event updates
 
-- [Register](https://www.australia.lithium-downstream-summit.com/booking): Delegate registration and booking
+- [Register](https://www.ultra-pure-water-summit.com/booking): Delegate registration and booking
 
 ## Organiser
 
@@ -36,4 +36,4 @@ IQ-Hub organises more than 200 B2B events annually across 14 countries and 34 in
 
 ## Sitemap
 
-[Sitemap](https://www.australia.lithium-downstream-summit.com/sitemap.xml)
+[Sitemap](https://www.ultra-pure-water-summit.com/sitemap.xml)

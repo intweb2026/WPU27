@@ -78,8 +78,8 @@ const AddEventKeyPoint = (props) => {
   //     });
   //     setVisible(false);
   //     setTopicError(true);
-  //   } else if (descriptionLength > 160) {
-  //     toast.error("Topic Description cannot exceed 160 characters!", {
+  //   } else if (descriptionLength > 165) {
+  //     toast.error("Topic Description cannot exceed 165 characters!", {
   //       position: "top-right",
   //       autoClose: 5000,
   //       hideProgressBar: false,
@@ -211,8 +211,8 @@ const AddEventKeyPoint = (props) => {
       setDescriptionTopicError(true);
       setVisible(false);
       return; // Stop execution
-    } else if (descriptionLength > 160) {
-      toast.error("Topic Description cannot exceed 160 characters!", {
+    } else if (descriptionLength > 165) {
+      toast.error("Topic Description cannot exceed 165 characters!", {
         position: "top-right",
         autoClose: 5000,
         hideProgressBar: false,
@@ -345,7 +345,7 @@ const AddEventKeyPoint = (props) => {
               <div className="col-md-12">
                 <div>
                   <Label htmlFor="amount-field" className="form-label">
-                    Topic Description (Max. length 160 characters)
+                    Topic Description (Max. length 165 characters)
                     <span className="required_span">*</span>
                   </Label>
                   <div className="input-group" style={{ width: "100%" }}>
@@ -360,7 +360,7 @@ const AddEventKeyPoint = (props) => {
                           const plainTextLength = getPlainTextLength(ipdata);
                           console.log("plainTextLength: ", plainTextLength);
 
-                          if (plainTextLength <= 160) {
+                          if (plainTextLength <= 165) {
                             setTopicDescription(ipdata);
                             if (plainTextLength >= 3) {
                               setDescriptionTopicError(false);
@@ -381,13 +381,13 @@ const AddEventKeyPoint = (props) => {
                           fontSize: "12px",
                           marginTop: "3px",
                           color:
-                            getPlainTextLength(topicDescription) > 160
+                            getPlainTextLength(topicDescription) > 165
                               ? "red"
                               : "inherit",
                         }}
                       >
                         Character count: {getPlainTextLength(topicDescription)}
-                        /160
+                        /165
                       </p>
                     </div>
                   </div>

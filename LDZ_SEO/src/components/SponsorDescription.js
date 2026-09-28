@@ -460,11 +460,11 @@ const SponsorDescription = () => {
               <div>
                 <h2>quick proposal</h2>
                 <form
-                  id="LDZ-(Quick Proposal 2026)"
+                  id="WPU-(Quick Proposal 2027)"
                   method="POST"
                   onSubmit={submitBtnClk}
                 >
-                  <div className="LDZ_2026_sponsor_form Form_form__nhNBc form_LDZ">
+                  <div className="WPU_2027_sponsor_form Form_form__nhNBc form_WPU">
                     <div>
                       <div>
                         <input

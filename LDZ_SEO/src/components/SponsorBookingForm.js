@@ -1242,7 +1242,7 @@ const SponsorBookingForm = () => {
                 <span className="PageForm_divide__vwhn0">|</span>
                 ABCD Company
               </p>
-              <p>©2026 Lithium Downstream Summit 2026</p>
+              <p>©2026 Ultra-Pure Water Summit 2027</p>
             </div>
           </div>
         </div>

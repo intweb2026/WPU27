@@ -253,8 +253,8 @@ const PayOnline = () => {
               <div id="payOnlineHeading">
                 <h2>pay online</h2>
                 <p>We accept all major credit and debit cards.</p>
-                <div className="LDZ_2026_payonline_form PayOnline_form__O6V2c form_LDZ">
-                  <form id="LDZ-(Pay Online 2026)">
+                <div className="WPU_2027_payonline_form PayOnline_form__O6V2c form_WPU">
+                  <form id="WPU-(Pay Online 2027)">
                     <div className="PayOnline_inputs__r1BVt">
                       <input
                         type="number"
@@ -282,7 +282,7 @@ const PayOnline = () => {
                     <div className="PayOnline_submit__GYabM">
                       <p>
                         Should you have any queries, please do not hesitate to contact our delegate support team at{' '}
-                        <a href="mailto:delegates@iq-hub.com?subject=Litihium Downstream Summit 2026">delegates@iq-hub.com</a>
+                        <a href="mailto:delegates@iq-hub.com?subject=Ultra-Pure Water Summit 2027">delegates@iq-hub.com</a>
                       </p>
                       <button type="button" onClick={handleInitialPayClick}>Pay Now</button>
                     </div>

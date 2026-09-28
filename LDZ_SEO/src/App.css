@@ -8,6 +8,9 @@
   --dark-color: #2177d8;
   --light-color: #ffffff;
   --linearGradient-color: linear-gradient(107deg, rgba(0, 0, 0, 0.60) -2.13%, rgba(0, 0, 0, 0.60) 35.42%, rgba(39, 141, 255, 0.60) 77.97%, rgba(39, 141, 255, 0.60) 125.13%);
+  /* The live site sets these two at runtime; the CSS copied from live uses them */
+  --yellow-theme-color: var(--primary-color);
+  --yellow-theme-text-color: #ffffff;
 }
 
 * {
@@ -20,6 +23,7 @@
 .speaker-h1-name {
   font-size: 36px !important;
   font-weight: 800 !important;
+  text-transform: capitalize !important;
 }
 
 .slick-slide {
@@ -132,4 +136,29 @@ html[lang="de"] body .navLinksContainer ul li {
 
 html[lang="ru"] body .navLinksContainer ul li {
   margin-right: 1% !important;
+}
+/* Slider rules from the live site main CSS */
+.speaker-slick .slick-track {
+  margin-bottom: 20px;
+}
+
+.logo-slider .slick-track {
+  align-items: center;
+  display: flex;
+}
+
+.event-slider .slick-list {
+  padding: 10px 0 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .event-slider .slick-list {
+    padding: 5px 0 !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .sliderContainer .slick-slide>div {
+    width: 100%;
+  }
 }

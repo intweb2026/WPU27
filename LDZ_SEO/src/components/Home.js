@@ -56,7 +56,7 @@ const Home = () => {
   const { eventGeneralSettings } = useApiData();
   const eventName =
     eventGeneralSettings?.eventName ||
-    "Litihium Downstream Summit 2026";
+    "Ultra-Pure Water Summit 2027";
 
   const [settings, setSettings] = useState({});
   const [chunkedSponsors, setChunkedSponsors] = useState([]);
@@ -353,11 +353,11 @@ const Home = () => {
             position: "absolute",
           }}
         >
-          <a href="/">Lithium Downstream Summit 2026</a>
-          <a href="/">Lithium Downstream trends</a>
+          <a href="/">Ultra-Pure Water Summit 2027</a>
+          <a href="/">Ultra-Pure Water trends</a>
           <a href="/">market evolution insights</a>
           <a href="/">crypto innovation analysis</a>
-          <a href="/">Litihium Downstream Summit 2026</a>
+          <a href="/">Ultra-Pure Water Summit 2027</a>
         </div>
         <RelatedEventsSection />
       </article>

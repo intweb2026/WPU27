@@ -1,3 +1,7 @@
+
+
+/* ForumSction rules copied from the live site CSS */
+
 .ForumSction_forumSection__Rvsvv {
     background-color: var(--primary-color);
     background-position: 100% 0;
@@ -6,17 +10,101 @@
     padding: 100px 0;
 }
 
+@media only screen and (max-width:1419px) {
+    .ForumSction_forumSection__Rvsvv {
+        padding: 60px 0;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .ForumSction_forumSection__Rvsvv {
+        background-image: none !important;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .ForumSction_forumSection__Rvsvv {
+        padding-bottom: 34px;
+        padding-top: 36px;
+    }
+}
+
 .ForumSction_forumSection__Rvsvv>h2 {
     color: #181818;
-    color: var(--secondary-color);
     font-size: 36px;
     font-weight: 800;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width:1419px) {
+    .ForumSction_forumSection__Rvsvv>h2 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .ForumSction_forumSection__Rvsvv>h2 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .ForumSction_forumSection__Rvsvv>h2 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+}
+
+.ForumSction_forumSection__Rvsvv>h2 {
+    color: #080808;
     line-height: 30px;
-    line-height: 32px;
     margin: 0 auto 50px;
     max-width: 1200px;
-    text-transform: uppercase;
     width: 100%;
+}
+
+@media only screen and (max-width:1819px) {
+    .ForumSction_forumSection__Rvsvv>h2 {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width:1231px) {
+    .ForumSction_forumSection__Rvsvv>h2 {
+        max-width: 960px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .ForumSction_forumSection__Rvsvv>h2 {
+        max-width: 720px;
+    }
+}
+
+@media only screen and (max-width:940px) {
+    .ForumSction_forumSection__Rvsvv>h2 {
+        font-size: 30px;
+    }
+}
+
+.ForumSction_forumSection__Rvsvv>h2 {
+    line-height: 32px;
+}
+
+@media only screen and (max-width:768px) {
+    .ForumSction_forumSection__Rvsvv>h2 {
+        font-size: 22px;
+        line-height: 25px;
+        max-width: 650px;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .ForumSction_forumSection__Rvsvv>h2 {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
 }
 
 .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ {
@@ -29,14 +117,74 @@
     width: 100%;
 }
 
+@media only screen and (max-width:1231px) {
+    .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ {
+        max-width: 960px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ {
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ {
+        max-width: 720px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ {
+        max-width: 650px;
+        width: 90%;
+    }
+}
+
 .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumLeft__29GMV {
     margin-right: 22px;
     padding-right: 22px;
     width: 50%;
 }
 
+.ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumLeft__29GMV::-webkit-scrollbar {
+    width: 2px;
+}
+
+.ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumLeft__29GMV::-webkit-scrollbar-track {
+    background: #f1f1f100;
+}
+
+.ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumLeft__29GMV::-webkit-scrollbar-thumb {
+    background: #868686;
+}
+
+.ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumLeft__29GMV::-webkit-scrollbar-thumb:hover {
+    background: #cecece;
+}
+
+@media only screen and (max-width:1024px) {
+    .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumLeft__29GMV {
+        margin: 23px 0 0;
+        max-height: none;
+        max-width: none;
+        padding: 5px 10px 5px 5px;
+        width: 100%;
+    }
+}
+
+.ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumLeft__29GMV h2,
+.ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumLeft__29GMV h3,
+.ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumLeft__29GMV h4 {
+    color: #fff;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
 .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumLeft__29GMV p {
-    color: var(--secondary-color);
+    color: #080808;
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
@@ -47,15 +195,71 @@
     margin-bottom: 0;
 }
 
+@media only screen and (max-width:1419px) {
+    .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumLeft__29GMV p {
+        font-size: 17px;
+        line-height: 26px;
+    }
+}
+
+@media only screen and (max-width:1231px) {
+    .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumLeft__29GMV p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumLeft__29GMV p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
+
+@media only screen and (max-width:350px) {
+    .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumLeft__29GMV p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+.ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumLeft__29GMV a,
+.ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumLeft__29GMV p em,
+.ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumLeft__29GMV p i,
+.ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumLeft__29GMV p strong {
+    color: #fff;
+}
+
+.ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumLeft__29GMV ul strong {
+    color: #fff;
+    display: contents;
+}
+
+.ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumLeft__29GMV ul li {
+    align-items: flex-start;
+    color: #fff;
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    list-style: none;
+    margin: 0;
+}
+
+.ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumLeft__29GMV ul li:before {
+    background-color: #fff;
+    border-radius: 2px;
+    content: "";
+    height: 9px;
+    margin: 8px 10px 0 0;
+    padding: 0;
+    width: 9px;
+}
+
 .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumRight__f3wIx {
     background-color: #000;
     position: relative;
     width: 50%;
-}
-
-.ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumRight__f3wIx>div {
-    height: 100%;
-    width: 100%;
 }
 
 .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumRight__f3wIx svg {
@@ -73,164 +277,52 @@
     cursor: pointer;
 }
 
-.ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumRight__f3wIx>div .ForumSction_iFrame__q2G3W {
-    background-color: #000;
-    height: 100%;
-    width: 100%;
-}
-
-
-
-
-
-
-@media only screen and (max-width: 1819px) {
-    .ForumSction_forumSection__Rvsvv>h2 {
-        padding-left: 0;
-    }
-}
-
-@media only screen and (max-width: 1419px) {
-    .ForumSction_forumSection__Rvsvv {
-        padding: 60px 0;
-    }
-
-    .ForumSction_forumSection__Rvsvv>h2 {
-        font-size: 30px;
-    }
-
-    .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumLeft__29GMV p {
-        font-size: 17px;
-        line-height: 26px;
-    }
-}
-
-@media only screen and (max-width: 1339px) {
+@media only screen and (max-width:1339px) {
     .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumRight__f3wIx {
         min-width: 0;
         width: 50%;
     }
 }
 
-@media only screen and (max-width: 1231px) {
-    .ForumSction_forumSection__Rvsvv>h2 {
-        max-width: 960px;
-    }
-
-    .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ {
-        max-width: 960px;
-    }
-
-    .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumLeft__29GMV p {
-        font-size: 16px;
-        line-height: 25px;
-    }
-}
-
-@media only screen and (max-width: 1024px) {
-    .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ {
-        align-items: center;
-        flex-direction: column-reverse;
-    }
-
-    .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumLeft__29GMV {
-        margin: 23px 0 0;
-        max-height: none;
-        max-width: none;
-        padding: 5px 10px 5px 5px;
-        width: 100%;
-    }
-
+@media only screen and (max-width:1024px) {
     .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumRight__f3wIx {
         margin: 0 auto;
         min-width: 320px;
         width: 100%;
     }
-
-    .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumRight__f3wIx>div .ForumSction_iFrame__q2G3W {
-        min-height: 540px;
-    }
 }
 
-@media only screen and (max-width: 991px) {
-    .ForumSction_forumSection__Rvsvv {
-        background-image: none !important;
-    }
-
-    .ForumSction_forumSection__Rvsvv>h2 {
-        font-size: 28px;
-        max-width: 720px;
-    }
-
-    /* .ForumSction_forumSection__Rvsvv>h2 {
-        max-width: 720px;
-    } */
-
-    .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ {
-        max-width: 720px;
-    }
-
-    .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumRight__f3wIx>div .ForumSction_iFrame__q2G3W {
-        min-height: 400px;
-    }
-}
-
-@media only screen and (max-width: 940px) {
-    .ForumSction_forumSection__Rvsvv>h2 {
-        font-size: 30px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .ForumSction_forumSection__Rvsvv>h2 {
-        font-size: 22px;
-        line-height: 25px;
-        max-width: 650px;
-        width: 90%;
-    }
-
-    .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ {
-        max-width: 650px;
-        width: 90%;
-    }
-}
-
-@media only screen and (max-width: 639px) {
-    .ForumSction_forumSection__Rvsvv {
-        padding-bottom: 34px;
-        padding-top: 36px;
-    }
-
-    .ForumSction_forumSection__Rvsvv>h2 {
-        font-size: 22px;
-        line-height: 25px;
-        margin-bottom: 30px;
-    }
-
-    /* .ForumSction_forumSection__Rvsvv>h2 {
-        font-size: 22px;
-        margin-bottom: 30px;
-    } */
-
-    .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumRight__f3wIx>div .ForumSction_iFrame__q2G3W {
-        min-height: 258px;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumLeft__29GMV p {
-        font-size: 15px;
-        line-height: 24px;
-    }
-
+@media only screen and (max-width:480px) {
     .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumRight__f3wIx {
         min-width: 280px;
     }
 }
 
-@media only screen and (max-width: 350px) {
-    .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumLeft__29GMV p {
-        font-size: 14px;
-        line-height: 22px;
+.ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumRight__f3wIx>div {
+    height: 100%;
+    width: 100%;
+}
+
+.ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumRight__f3wIx>div .ForumSction_iFrame__q2G3W {
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width:1024px) {
+    .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumRight__f3wIx>div .ForumSction_iFrame__q2G3W {
+        min-height: 540px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumRight__f3wIx>div .ForumSction_iFrame__q2G3W {
+        min-height: 400px;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .ForumSction_forumSection__Rvsvv .ForumSction_forumContainer__wbFFJ .ForumSction_forumRight__f3wIx>div .ForumSction_iFrame__q2G3W {
+        min-height: 258px;
     }
 }

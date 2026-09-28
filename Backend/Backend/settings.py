@@ -195,7 +195,7 @@ ZOHO_WEBHOOK_URL = os.environ.get('ZOHO_WEBHOOK_URL', '')
 CRM_WEBHOOK_URL = os.environ.get('CRM_WEBHOOK_URL', '')
 CRM_API_KEY = os.environ.get('CRM_API_KEY', '')
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True

@@ -411,11 +411,11 @@ const Speakers = () => {
           <div>
             <h2>BECOME A SPEAKER & JOIN THE CONVERSATION</h2>
             <form
-              id="LDZ-(BECOME A SPEAKER & JOIN THE CONVERSATION 2026)"
+              id="WPU-(BECOME A SPEAKER & JOIN THE CONVERSATION 2027)"
               method="POST"
               onSubmit={submitBtnClk}
             >
-              <div className="LDZ_2026_quick_proposal Form_form__nhNBc form_LDZ">
+              <div className="WPU_2027_quick_proposal Form_form__nhNBc form_WPU">
                 <div>
                   <div>
                     <input

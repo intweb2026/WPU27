@@ -35,7 +35,7 @@ const LatestNews = () => {
   const formatDate = (dateString) => {
     const date = new Date(dateString);
 
-    const day = date.toLocaleDateString("en-GB", { day: "2-digit" });
+    const day = date.toLocaleDateString("en-GB", { day: "numeric" });
     const month = date
       .toLocaleDateString("en-GB", { month: "short" })
       .toUpperCase();

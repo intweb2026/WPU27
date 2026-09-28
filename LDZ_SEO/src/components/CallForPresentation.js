@@ -755,8 +755,8 @@ const CallForPresentation = () => {
                     src={feature.iconUrl || "/placeholder.svg"}
                     alt={`${feature.title} icon`}
                   ></img>
-                  <h3 style={{ color: "#0c1618" }}>{feature.title}</h3>
-                  <p style={{ color: "#0c1618" }}>{feature.description}</p>
+                  <h3 style={{ color: "#181818" }}>{feature.title}</h3>
+                  <p style={{ color: "#181818" }}>{feature.description}</p>
                 </div>
               ))}
             </Slider>
@@ -770,8 +770,8 @@ const CallForPresentation = () => {
                     src={feature.iconUrl || "/placeholder.svg"}
                     alt={`${feature.title} icon`}
                   ></img>
-                  <h3 style={{ color: "#0c1618" }}>{feature.title}</h3>
-                  <p style={{ color: "#0c1618" }}>{feature.description}</p>
+                  <h3>{feature.title}</h3>
+                  <p>{feature.description}</p>
                 </div>
               ))}
             </div>
@@ -788,11 +788,11 @@ const CallForPresentation = () => {
             <div>
               <h2>quick proposal</h2>
               <form
-                id="LDZ-(Quick Proposal 2026)"
+                id="WPU-(Quick Proposal 2027)"
                 method="POST"
                 onSubmit={submitBtnClk}
               >
-                <div className="LDZ_2026_sponsor_form Form_form__nhNBc form_LDZ">
+                <div className="WPU_2027_quick_proposal Form_form__nhNBc form_WPU">
                   <div>
                     <div>
                       <input

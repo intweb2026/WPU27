@@ -470,122 +470,6 @@ body {
   width: 100%;
 }
 
-.DetailsContainer_wholeContainer__385Iv {
-  background-color: rgb(241, 241, 241);
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX {
-  align-items: stretch;
-  display: flex;
-  margin: 0px auto;
-  max-width: 1920px;
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_imageContainer__ncJwH {
-  background-color: rgb(229, 229, 229);
-  background-position: 50% center;
-  background-repeat: no-repeat;
-  background-size: 60%;
-  height: auto;
-  min-height: 590px;
-  width: 50%;
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 92px 125px 100px;
-  width: 50%;
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF h1 {
-  color: rgb(24, 24, 24);
-  font-size: 36px;
-  font-weight: 800;
-  margin: 0px;
-  text-transform: uppercase;
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR {
-  margin: 35px 0px 45px;
-  padding: 0px;
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR h4 {
-  margin-bottom: 50px !important;
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR h4 {
-  color: rgb(24, 24, 24);
-  font-size: 20px;
-  font-weight: 800;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
-  text-transform: capitalize;
-  margin-bottom: 37px !important;
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR p {
-  color: rgb(24, 24, 24);
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 28px;
-  margin: 0px 0px 30px;
-  padding: 0px;
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR a {
-  color: #181818;
-  display: block;
-  font-size: 16px;
-  font-weight: 800;
-  text-decoration: underline !important;
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF button {
-  background-color: var(--secondary-color);
-  border: none;
-  border-radius: 2px;
-  color: rgb(255, 255, 255);
-  cursor: pointer;
-  font-size: 20px;
-  font-weight: 800;
-  height: 84px;
-  text-transform: uppercase;
-  transition: 0.3s;
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_cstom_btn__\+cVfU {
-  align-items: center;
-  background-color: var(--secondary-color);
-  border: none;
-  border-radius: 2px;
-  color: #fff;
-  cursor: pointer;
-  display: flex;
-  font-size: 20px;
-  font-weight: 800;
-  height: 84px;
-  justify-content: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: .3s;
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF button:hover {
-  background-color: #e4e4e4;
-  color: var(--secondary-color);
-  border: 1px solid rgba(0, 0, 0, 0);
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_cstom_btn__\+cVfU:hover {
-  background-color: #e4e4e4 !important;
-  border: 1px solid #0000;
-  color: var(--secondary-color);
-}
-
 .LightBox_fluid__uvDPj {
   background-color: var(--secondary-color);
 }
@@ -760,9 +644,6 @@ body {
 }
 
 @media only screen and (max-width: 1619px) {
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF {
-    padding: 60px 100px;
-  }
 
   .LightBox_fluid__uvDPj .LightBox_container__pMpod .LightBox_images__L7242 {
     max-width: 1200px;
@@ -770,13 +651,6 @@ body {
 }
 
 @media only screen and (max-width: 1419px) {
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF {
-    padding: 40px 70px;
-  }
-
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF h1 {
-    font-size: 28px;
-  }
 
   .LightBox_fluid__uvDPj .LightBox_container__pMpod .LightBox_images__L7242 {
     padding: 60px 0px;
@@ -795,24 +669,6 @@ body {
   }
 }
 
-@media only screen and (max-width: 1339px) {
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF {
-    padding: 40px 50px;
-  }
-
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF {
-    padding: 40px 50px;
-  }
-
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF button {
-    height: 77px;
-  }
-
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_cstom_btn__\+cVfU {
-    height: 77px;
-  }
-}
-
 @media only screen and (max-width: 1231px) {
   .LightBox_fluid__uvDPj .LightBox_container__pMpod .LightBox_images__L7242 {
     max-width: 960px;
@@ -824,20 +680,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 1179px) {
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF button {
-    height: 65px;
-  }
-
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_cstom_btn__\+cVfU {
-    height: 65px;
-  }
-}
-
 @media only screen and (max-width: 991px) {
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF h1 {
-    font-size: 28px;
-  }
 
   .LightBox_fluid__uvDPj .LightBox_container__pMpod .LightBox_images__L7242 {
     max-width: 720px;
@@ -871,42 +714,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 940px) {
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX {
-    flex-direction: column;
-  }
-
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_imageContainer__ncJwH {
-    height: 65vh;
-    max-height: 550px;
-    min-height: 400px;
-    width: 100%;
-  }
-
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF {
-    padding: 40px 20px;
-    width: 100%;
-  }
-
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF button {
-    font-size: 16.5px;
-    height: 52px;
-  }
-
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_cstom_btn__\+cVfU {
-    font-size: 16.5px;
-    height: 52px;
-  }
-}
-
 @media only screen and (max-width: 768px) {
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF h1 {
-    font-size: 24px;
-  }
-
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR {
-    margin: 36px 0px;
-  }
 
   .LightBox_fluid__uvDPj .LightBox_container__pMpod .LightBox_images__L7242 {
     max-width: 650px;
@@ -919,33 +727,6 @@ body {
 }
 
 @media only screen and (max-width: 639px) {
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_imageContainer__ncJwH {
-    max-height: 400px;
-  }
-
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF h1 {
-    font-size: 22px;
-    line-height: 25px;
-  }
-
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR {
-    margin: 10px 0px 20px;
-  }
-
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR h4 {
-    line-height: 25px;
-    margin-bottom: 10px !important;
-  }
-
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR h4 {
-    font-size: 18px;
-    margin-bottom: 5px !important;
-  }
-
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR p {
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
 
   .LightBox_fluid__uvDPj .LightBox_container__pMpod {
     padding: 0px 20px;
@@ -1026,4 +807,711 @@ body {
   .Venue_container__Lol8U .Venue_contact__jdZNn .Venue_cardsContainer__U8T\+R>div {
     padding: 32px 20px;
   }
+}
+
+/* DetailsContainer rules copied from the live site CSS */
+
+.DetailsContainer_wholeContainer__385Iv {
+    background-color: #f1f1f1;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX {
+    align-items: stretch;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+@media only screen and (max-width:940px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX {
+        flex-direction: column;
+    }
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_imageContainer__ncJwH {
+    background-color: #e5e5e5;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    height: auto;
+    min-height: 590px;
+    width: 50%;
+}
+
+@media only screen and (max-width:940px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_imageContainer__ncJwH {
+        height: 65vh;
+        max-height: 550px;
+        min-height: 400px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_imageContainer__ncJwH {
+        max-height: 400px;
+    }
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 92px 150px 100px;
+    width: 50%;
+}
+
+@media only screen and (max-width:1460px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb {
+        padding: 90px 80px 90px 90px;
+    }
+}
+
+@media only screen and (max-width:1339px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb {
+        padding: 70px 65px 70px 75px;
+    }
+}
+
+@media only screen and (max-width:1179px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb {
+        padding: 50px;
+    }
+}
+
+@media only screen and (max-width:940px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb {
+        margin: 0 auto;
+        padding: 33px 0 38px;
+        width: 90%;
+    }
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_firstHeader__a58VH {
+    color: #181818;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb h1 {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width:1419px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb h1 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb h1 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb h1 {
+    color: #181818;
+    font-size: 20px;
+    font-size: 36px;
+    margin: 0;
+}
+
+@media only screen and (max-width:1419px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb h1 {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb h1 {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb h1 {
+        font-size: 22px;
+    }
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb a,
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb button {
+    align-items: center;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-size: 20px;
+    font-weight: 800;
+    justify-content: center;
+    min-height: 84px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb a:hover,
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb button:hover {
+    background-color: #d6d6d6 !important;
+    color: var(--secondary-color);
+}
+
+@media only screen and (max-width:1339px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb a,
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb button {
+        min-height: 77px;
+    }
+}
+
+@media only screen and (max-width:1179px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb a,
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb button {
+        min-height: 65px;
+    }
+}
+
+@media only screen and (max-width:940px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb a,
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb button {
+        font-size: 16.5px;
+        min-height: 50px;
+    }
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR {
+    height: 100%;
+    margin: 32px 0 42px;
+    padding: 0;
+}
+
+@media only screen and (max-width:768px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR {
+        margin: 40px 0;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR {
+        margin: 20px 0;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR {
+        margin: 15px 0 20px;
+    }
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR p {
+    color: #181818;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 0 0 30px;
+    padding: 0;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR p strong {
+    color: #181818;
+    font-weight: 800;
+}
+
+@media only screen and (max-width:639px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR p:last-child {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR p br+strong {
+    display: inline-block;
+    padding-top: 40px;
+    padding-top: 34px;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR strong {
+    margin: 0;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR h2 {
+    color: #181818;
+    font-size: 28px;
+    font-weight: 800;
+    margin: 40px 0 32px;
+    text-transform: capitalize;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR h2>span {
+    color: #181818;
+    font-size: 36px;
+}
+
+@media only screen and (max-width:1419px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR h2>span {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR h2>span {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR h2>span {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR h2 {
+        font-size: 24px;
+        margin: 15px 0;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR h2 {
+        margin: 10px 0;
+    }
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR h3 {
+    color: #181818;
+    font-size: 28px;
+    font-weight: 800;
+    margin: 40px 0 32px;
+    text-transform: capitalize;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR h4 {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0 0 50px;
+    text-transform: capitalize;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR h4 strong {
+    color: #181818;
+    font-weight: 800;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR h5 {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 5px;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR h5 strong {
+    color: #181818;
+    font-weight: 800;
+}
+
+@media only screen and (max-width:639px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR h5 {
+        font-size: 18px;
+    }
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR a {
+    color: #181818;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR ul {
+    margin: 10px 0;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR ul li {
+    align-items: flex-start;
+    color: #181818;
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    list-style: none;
+    margin: 0;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR ul li i,
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR ul li strong {
+    display: contents;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR ul li:before {
+    background-color: #181818;
+    border-radius: 2px;
+    content: "";
+    height: 9px;
+    margin: 8px 10px 0 0;
+    min-height: 9px;
+    min-width: 9px;
+    padding: 0;
+    width: 9px;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 92px 125px 100px;
+    width: 50%;
+}
+
+@media only screen and (max-width:1619px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF {
+        padding: 60px 100px;
+    }
+}
+
+@media only screen and (max-width:1419px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF {
+        padding: 40px 70px;
+    }
+}
+
+@media only screen and (max-width:1339px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF {
+        padding: 40px 50px;
+    }
+}
+
+@media only screen and (max-width:940px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF {
+        padding: 40px 20px;
+        width: 100%;
+    }
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF h1 {
+    color: #181818;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width:1419px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF h1 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF h1 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+@media only screen and (max-width:1419px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF h1 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF h1 {
+        font-size: 24px;
+    }
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_cstom_btn__\+cVfU {
+    align-items: center;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-size: 20px;
+    font-weight: 800;
+    height: 84px;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_cstom_btn__\+cVfU:hover {
+    background-color: #e4e4e4 !important;
+    border: 1px solid #0000;
+    color: var(--secondary-color);
+}
+
+@media only screen and (max-width:1339px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_cstom_btn__\+cVfU {
+        height: 77px;
+    }
+}
+
+@media only screen and (max-width:1179px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_cstom_btn__\+cVfU {
+        height: 65px;
+    }
+}
+
+@media only screen and (max-width:940px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_cstom_btn__\+cVfU {
+        font-size: 16.5px;
+        height: 52px;
+    }
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF button {
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 800;
+    height: 84px;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF button:hover {
+    background-color: #e4e4e4 !important;
+    border: 1px solid #0000;
+    color: var(--secondary-color);
+}
+
+@media only screen and (max-width:1339px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF button {
+        height: 77px;
+    }
+}
+
+@media only screen and (max-width:1179px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF button {
+        height: 65px;
+    }
+}
+
+@media only screen and (max-width:940px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF button {
+        font-size: 16.5px;
+        height: 52px;
+    }
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR {
+    margin: 35px 0 45px;
+    padding: 0;
+}
+
+@media only screen and (max-width:768px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR {
+        margin: 36px 0;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR {
+        margin: 26px 0;
+        margin: 10px 0 20px;
+    }
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR p {
+    color: #181818;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 0 0 30px;
+    padding: 0;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR p strong {
+    color: #181818;
+    font-weight: 800;
+}
+
+@media only screen and (max-width:639px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR p:last-child {
+    margin-bottom: 0;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR h3 {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width:940px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR h3 {
+        line-height: 25px;
+        margin-bottom: 34px;
+    }
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR h4 {
+    margin-bottom: 50px !important;
+}
+
+@media only screen and (max-width:639px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR h4 {
+        line-height: 25px;
+        margin-bottom: 10px !important;
+    }
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR strong {
+    margin: 0;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR h3 {
+    color: #181818;
+    font-size: 28px;
+    font-weight: 800;
+    margin: 40px 0;
+    text-transform: capitalize;
+    text-transform: uppercase;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR h3>span {
+    color: #181818;
+    font-size: 36px;
+}
+
+@media only screen and (max-width:1419px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR h3>span {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR h3>span {
+        font-size: 24px;
+    }
+
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR h3 {
+        font-size: 24px;
+        margin: 15px 0;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR h3 {
+        margin: 10px 0;
+    }
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR h4 {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0;
+    margin-bottom: 37px !important;
+    text-transform: capitalize;
+}
+
+@media only screen and (max-width:639px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR h4 {
+        font-size: 18px;
+        margin-bottom: 5px !important;
+    }
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR h4 strong {
+    color: #181818;
+    font-weight: 800;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR h5 {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 5px;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR h5 strong {
+    color: #181818;
+    font-weight: 800;
+}
+
+@media only screen and (max-width:639px) {
+    .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR h5 {
+        font-size: 18px;
+    }
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR a {
+    color: #181818;
+    display: block;
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR ul {
+    margin: 10px 0;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR ul li {
+    align-items: flex-start;
+    color: #181818;
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    list-style: none;
+    margin: 0;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR ul li i,
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR ul li strong {
+    display: contents;
+}
+
+.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textVenueContainer__XnUJF .DetailsContainer_innerContent__6NQGR ul li:before {
+    background-color: #181818;
+    border-radius: 2px;
+    content: "";
+    height: 9px;
+    margin: 8px 10px 0 0;
+    min-height: 9px;
+    min-width: 9px;
+    padding: 0;
+    width: 9px;
 }

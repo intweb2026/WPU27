@@ -984,7 +984,7 @@ const ExhibitorPackages = () => {
               <div>
                 {sponsorCardsList.map((pkg, index) => {
                   const subject = encodeURIComponent(
-                    `I'm interested in Sponsorship – ${pkg.title} – LDZ`,
+                    `I'm interested in Sponsorship – ${pkg.title} – WPU`,
                   );
 
                   return (
@@ -1037,7 +1037,7 @@ const ExhibitorPackages = () => {
                     <p>
                       <img src={emailIcon} alt="emil icon"></img>
                       <a
-                        href={`mailto:${item?.companyPersonEmail}?subject=Lithium Downstream Summit 2026`}
+                        href={`mailto:${item?.companyPersonEmail}?subject=Ultra-Pure Water Summit 2027`}
                         className="MediaScreen_email__vpDbe"
                       >
                         {item?.companyPersonEmail}

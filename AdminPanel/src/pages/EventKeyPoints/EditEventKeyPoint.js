@@ -86,8 +86,8 @@ const EditEventKeyPoint = ({
       setVisible(false);
       setTopicError(true);
       return; // Stop execution
-    } else if (topic?.length > 75) {
-      toast.error("Topic cannot exceed 75 characters!", {
+    } else if (topic?.length > 77) {
+      toast.error("Topic cannot exceed 77 characters!", {
         position: "top-right",
         autoClose: 5000,
         hideProgressBar: false,
@@ -115,8 +115,8 @@ const EditEventKeyPoint = ({
       setDescriptionTopicError(true);
       setVisible(false);
       return; // Stop execution
-    } else if (descriptionLength > 160) {
-      toast.error("Topic Description cannot exceed 160 characters!", {
+    } else if (descriptionLength > 165) {
+      toast.error("Topic Description cannot exceed 165 characters!", {
         position: "top-right",
         autoClose: 5000,
         hideProgressBar: false,
@@ -216,7 +216,7 @@ const EditEventKeyPoint = ({
               <div className="col-md-12">
                 <div>
                   <Label htmlFor="customername-field" className="form-label">
-                    Topic (Max. length 75 characters)
+                    Topic (Max. length 77 characters)
                     <span className="required_span">*</span>
                   </Label>
                   <Input
@@ -231,7 +231,7 @@ const EditEventKeyPoint = ({
                       setTopic(e.target.value);
                       if (e.target.value?.length >= 3) {
                         setTopicError(false);
-                      } else if (e.target.value?.length > 75) {
+                      } else if (e.target.value?.length > 77) {
                         setTopicError(true);
                       } else {
                         setTopicError(true);
@@ -239,7 +239,7 @@ const EditEventKeyPoint = ({
                     }}
                   />
                   <p style={{ fontSize: "12px", marginTop: "3px" }}>
-                    Character count: {topic.length}/75
+                    Character count: {topic.length}/77
                   </p>
                 </div>
               </div>
@@ -247,7 +247,7 @@ const EditEventKeyPoint = ({
               <div className="col-md-12">
                 <div>
                   <Label htmlFor="amount-field" className="form-label">
-                    Topic Description (Max. length 160 characters)
+                    Topic Description (Max. length 165 characters)
                     <span className="required_span">*</span>
                   </Label>
                   <div className="input-group" style={{ width: "100%" }}>
@@ -262,7 +262,7 @@ const EditEventKeyPoint = ({
                           const plainTextLength = getPlainTextLength(ipdata);
                           console.log("plainTextLength: ", plainTextLength);
 
-                          if (plainTextLength <= 160) {
+                          if (plainTextLength <= 165) {
                             setTopicDescription(ipdata);
                             if (plainTextLength >= 3) {
                               setDescriptionTopicError(false);
@@ -283,13 +283,13 @@ const EditEventKeyPoint = ({
                           fontSize: "12px",
                           marginTop: "3px",
                           color:
-                            getPlainTextLength(topicDescription) > 160
+                            getPlainTextLength(topicDescription) > 165
                               ? "red"
                               : "inherit",
                         }}
                       >
                         Character count: {getPlainTextLength(topicDescription)}
-                        /160
+                        /165
                       </p>
                     </div>
                   </div>

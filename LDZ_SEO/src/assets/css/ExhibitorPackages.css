@@ -368,63 +368,6 @@
   width: 100%;
 }
 
-.DetailsContainer_wholeContainer__385Iv {
-  background-color: #f1f1f1;
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX {
-  align-items: stretch;
-  display: flex;
-  margin: 0 auto;
-  max-width: 1920px;
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_imageContainer__ncJwH {
-  background-color: #e5e5e5;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: 60%;
-  height: auto;
-  min-height: 590px;
-  width: 50%;
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR p {
-  color: #181818;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 28px;
-  margin: 0 0 30px;
-  padding: 0;
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR p:last-child {
-  font-size: 16px;
-  margin-bottom: 0;
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb a {
-  align-items: center;
-  background-color: var(--secondary-color);
-  border: none;
-  border-radius: 2px;
-  color: #fff;
-  cursor: pointer;
-  display: flex;
-  font-size: 20px;
-  font-weight: 800;
-  justify-content: center;
-  min-height: 84px;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: .3s;
-}
-
-.DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb a:hover {
-  background-color: #d6d6d6 !important;
-  color: var(--secondary-color);
-}
-
 .SponsorLanding_container__bsWcn .SponsorLanding_packagesCotainer__QBljc {
   background-color: var(--secondary-color);
   padding: 92px 0 100px;
@@ -1011,16 +954,7 @@
   text-decoration: underline !important;
 }
 
-@media only screen and (max-width: 1460px) {
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb {
-    padding: 90px 80px 90px 90px;
-  }
-}
-
 @media only screen and (max-width: 1419px) {
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb h1 {
-    font-size: 26px;
-  }
 
   .SponsorLanding_container__bsWcn .SponsorLanding_packagesCotainer__QBljc {
     padding: 60px 0;
@@ -1048,16 +982,6 @@
 
   .SponsorLanding_container__bsWcn .SponsorLanding_contactContainer__hipqh h2 {
     font-size: 30px;
-  }
-}
-
-@media only screen and (max-width: 1339px) {
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb {
-    padding: 70px 65px 70px 75px;
-  }
-
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb a {
-    min-height: 77px;
   }
 }
 
@@ -1093,13 +1017,6 @@
 }
 
 @media only screen and (max-width: 1179px) {
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb {
-    padding: 50px;
-  }
-
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb a {
-    min-height: 65px;
-  }
 
 
   .SponsorLanding_container__bsWcn .SponsorLanding_packagesCotainer__QBljc>div .SponsorLanding_packageTableContainer__C2Yxs table tbody tr td:nth-child(n+2):after {
@@ -1113,9 +1030,6 @@
 }
 
 @media only screen and (max-width: 991px) {
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb h1 {
-    font-size: 28px;
-  }
 
   .SponsorLanding_container__bsWcn .SponsorLanding_packagesCotainer__QBljc>div {
     max-width: 760px;
@@ -1184,27 +1098,6 @@
 }
 
 @media only screen and (max-width: 940px) {
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX {
-    flex-direction: column;
-  }
-
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_imageContainer__ncJwH {
-    height: 65vh;
-    max-height: 550px;
-    min-height: 400px;
-    width: 100%;
-  }
-
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb {
-    margin: 0 auto;
-    padding: 33px 0 38px;
-    width: 90%;
-  }
-
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb a {
-    font-size: 16.5px;
-    min-height: 50px;
-  }
 
   .SponsorLanding_container__bsWcn .SponsorLanding_packagesCotainer__QBljc>div .SponsorLanding_packageCardContainer__m\+YQm .SponsorLanding_body__rHcET .SponsorLanding_pricing__l1LD7 {
     border-bottom: 1px solid #9d9d9d;
@@ -1212,13 +1105,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb h1 {
-    font-size: 24px;
-  }
-
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR {
-    margin: 40px 0;
-  }
 
   .SponsorLanding_container__bsWcn .SponsorLanding_packagesCotainer__QBljc>div {
     max-width: 690px;
@@ -1243,27 +1129,6 @@
 }
 
 @media only screen and (max-width: 639px) {
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_imageContainer__ncJwH {
-    max-height: 400px;
-  }
-
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb h1 {
-    font-size: 22px;
-    line-height: 25px;
-  }
-
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb h1 {
-    font-size: 22px;
-  }
-
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR {
-    margin: 20px 0;
-  }
-
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR p {
-    font-size: 16px;
-    line-height: 25px;
-  }
 
   .SponsorLanding_container__bsWcn .SponsorLanding_packagesCotainer__QBljc {
     padding: 40px 0;
@@ -1342,9 +1207,6 @@
 }
 
 @media only screen and (max-width: 480px) {
-  .DetailsContainer_wholeContainer__385Iv .DetailsContainer_container__JrWjX .DetailsContainer_textContainer__D8Ukb .DetailsContainer_innerContent__6NQGR {
-    margin: 15px 0 20px;
-  }
 
   .SponsorLanding_container__bsWcn .SponsorLanding_sponsorshipOptions__DX3F6>div {
     align-items: center;
